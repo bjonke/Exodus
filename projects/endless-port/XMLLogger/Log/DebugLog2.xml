@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl" ?>
+
+<!-- Created by XMLLogger -->
+
+<LogEntry>
+	<ClassName>Main</ClassName>
+	<FuncName>main</FuncName>
+	<DebugType>Info</DebugType>
+	<Timestamp>Wed Jun 06 19:48:55 2012
+</Timestamp>
+	<Info>RegisterClass initialized...</Info>
+	<Line>53</Line>
+	<File>d:\programming\endless-port\misc\main.cpp</File>
+</LogEntry>
