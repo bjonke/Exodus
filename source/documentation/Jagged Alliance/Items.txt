@@ -1,0 +1,80 @@
+Item #1 Item #2 New Item Merge Type 
+First Aid Kit First Aid Kit First Aid Kit Combine Points 
+Medical Kit Medical Kit Medical Kit Combine Points 
+Locksmith Kit Locksmith Kit Locksmith Kit Combine Points 
+Tool Kit Tool Kit Tool Kit Combine Points 
+Tank of Gas Tank of Gas Tank of Gas Combine Points 
+Camouflage kit Camouflage kit Camouflage kit Combine Points 
+Beer Beer Beer Combine Points 
+Wine Wine Wine Combine Points 
+Bottle of Alcohol Bottle of Alcohol Bottle of Alcohol Combine Points 
+Compound 18 Flak Jacket Compound 18 Flak Jacket Treat Armor 
+Compound 18 Kevlar Vest Compound 18 Kevlar Vest Treat Armor 
+Compound 18 Guardian Vest Treated Guardian Vest Treat Armor 
+Compound 18 Spectra Vest Compound 18 Spectra Vest Treat Armor 
+Compound 18 Leather & Kevlar Jacket Compound 18 Leather & Kevlar Jacket Treat Armor 
+Compound 18 Kevlar Leggings Compound 18 Kevlar Leggings Treat Armor 
+Compound 18 Spectra Leggings Compound 18 Spectra Leggings Treat Armor 
+Compound 18 Kevlar Helmet Compound 18 Kevlar Helmet Treat Armor 
+Compound 18 Spectra Helmet Compound 18 Spectra Helmet Treat Armor 
+Compound 18 Coated Flak Jacket Nothing Destruction 
+Compound 18 Coated Kevlar Vest Nothing Destruction 
+Compound 18 Coated Spectra Vest Nothing Destruction 
+Compound 18 Coated Leather & Kevlar Jacket Nothing Destruction 
+Compound 18 Coated Kevlar Leggings Nothing Destruction 
+Compound 18 Coated Spectra Leggings Nothing Destruction 
+Compound 18 Coated Kevlar Helmet Nothing Destruction 
+Compound 18 Coated Spectra Helmet Nothing Destruction 
+Royal Jelly Flak Jacket Coated Flak Jacket Treat Armor 
+Royal Jelly Kevlar Vest Coated Kevlar Vest Treat Armor 
+Royal Jelly Spectra Vest Coated Spectra Vest Treat Armor 
+Royal Jelly Leather & Kevlar Jacket Coated Leather & Kevlar Jacket Treat Armor 
+Royal Jelly Guardian Vest Coated Guardian Vest Treat Armor 
+Royal Jelly Kevlar Leggings Coated Kevlar Leggings Treat Armor 
+Royal Jelly Spectra Leggings Coated Spectra Leggings Treat Armor 
+Royal Jelly Kevlar Helmet Coated Kevlar Helmet Treat Armor 
+Royal Jelly Spectra Helmet Coated Spectra Helmet Treat Armor 
+Royal Jelly Compound 18 Flak Jacket Nothing Destruction 
+Royal Jelly Compound 18 Kevlar Vest Nothing Destruction 
+Royal Jelly Treated Guardian Vest Nothing Destruction 
+Royal Jelly Compound 18 Spectra Vest Nothing Destruction 
+Royal Jelly Compound 18 Leather & Kevlar Jacket Nothing Destruction 
+Royal Jelly Compound 18 Kevlar Leggings Nothing Destruction 
+Royal Jelly Compound 18 Spectra Leggings Nothing Destruction 
+Royal Jelly Compound 18 Kevlar Helmet Nothing Destruction 
+Royal Jelly Compound 18 Spectra Helmet Nothing Destruction 
+A Jar of RDX Crystals TNT HMX Explosive 
+A Jar of RDX Crystals C1 C4 Explosive 
+TNT A Jar of RDX Crystals HMX Explosive 
+C1 A Jar of RDX Crystals C4 Explosive 
+String Soda Can Soda Can with String Easy Merge 
+Soda Can String Soda Can with String Easy Merge 
+X-ray Device Display Unit X-ray Detector Electronic Merge 
+Display Unit X-ray Device X-ray Detector Electronic Merge 
+Nothing Nothing Nothing Destruction 
+
+Attachment Combo Merge
+Item Attach #1 Attach #2 New Item 
+Aluminum Rod Spring Nothing Rod & Spring 
+Steel Tube Quick Glue Duct Tape Gun Barrel Extender 
+FumblePak X-ray Tube Pack of Gum X-ray Device 
+LameBoy Display Copper Wire Nothing Display Unit 
+Nothing Nothing Nothing Nothing 
+
+Item Attachment
+Item Attachment Class Skill Check Skill Check Mod 
+Silencer gun no check 0 
+Sniper Scope gun no check 0 
+Laser Scope gun no check 0 
+Bipod gun no check 0 
+Underslung Grenade Launcher gun no check 0 
+Duckbill gun no check 0 
+Rod & Spring gun attach special item 0 
+Gun Barrel Extender gun attach special item 0 
+Detonator bomb attach detonator 0 
+Remote Detonator bomb attach remote detonator -10 
+Remote Detonator bomb attach remote detonator -10 
+X-ray Tube (none) attach special electronics -15 
+Copper Wire (none) attach special electronics 20 
+Ceramic Plates armor no check 0 
+Nothing [unknown] no check 0 
