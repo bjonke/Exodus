@@ -15,81 +15,81 @@ SoulFactory.push_back(CSoul("Barry"));
 CSoul Blood;//     84  94  87  82   6  75  78  23  31  51   3    850 Throwing M. Arts
 SoulFactory.push_back(CSoul("Blood"));
 CSoul Bull;//      96  59  44  98  23  64  72  25  17  10   2    400 H2H      (Expert)
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Bull"));
 CSoul Buns;//      79  78  87  59  24  93  86   8   4  48   2    725 Teaching (Expert)
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Buns"));
 CSoul Buzz;//      71  84  47  68  13  90  96   5  19   0   4   2200 HeavyWpn AutoWpns
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Buzz"));
 CSoul Cliff;//     82  60  53  64  33  87  84   4  31  84   4   1600 -------- --------
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Cliff"));
 CSoul Danny;//     99  99  79  73  10  91  61  12   0  88   3   1300 Ambidext --------
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Danny"));
 CSoul DrQ;//     88  92  81  73  26  91  60  19  20  87   3   1500 M. Arts  NightOps
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("DrQ"));
 CSoul Fidel;//     88  83  64  83   1  71  85   6  97   3   3   2000 H2H      --------
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Fidel"));
 CSoul Fox;//       77  85 100  55  21  76  69  15   8  70   2    625 Teaching Ambidext
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Fox"));
 CSoul Grizzly;//   94  69  50  95  16  72  79  24  37   8   2    525 H2H      HeavyWpn
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Grizzly"));
 CSoul Grunty;//    82  79  76  71  21  72  78  44  28  22   3    550 NightOps HeavyWpn
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Grunty"));
 CSoul Gus;//       75  65  84  82  83  94  97  80  76  68   8   6000 HeavyWpn (Expert)
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Gus"));
 CSoul Hitman;//    75  77  40  69  52  74  88  11  39   3   4   1000 Throwing Teaching
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Hitman"));
 CSoul Ice;//       90  88  87  84  23  78  86  42   3   7   3   1500 Teaching AutoWpns
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Ice"));
 CSoul Igor;//      91  89  75  82   4  84  77  36  19  17   2    500 Stealth  --------
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Igor"));
 CSoul Ivan;//      94  90  95  87  35  83  92  14  55  15   4   2950 AutoWpns HeavyWpn
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Ivan"));
 CSoul Len;//       89  80  88  77  61  83  83  54  47  35   7   2400 AutoWpns Teaching
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Len"));
 CSoul Lynx;//      81  79  86  77  39  71  99  29  50  34   4   2850 Electr.  NightOps
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Lynx"));
 CSoul Magic;//     95  99  98  92  16  80  94  91  27  24   5   5500 Lockpick Stealth
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Magic"));
 CSoul Malice;//    83  81  97  89  13  55  83  14  16  12   3   1200 Knifing  H2H
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Malice"));
 CSoul MD;//        72  62  78  76   4  94  66   7   0  80   1    500 Knifing  Teaching
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("MD"));
 CSoul Meltdown;//  78  74  84  76  24  82  83  22  40   3   3    800 HeavyWpn Ambidext
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Meltdown"));
 CSoul Nails;//     72  60  88  90  24  79  84  63  78  11   4   1800 Lockpick --------
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Nails"));
 CSoul Raider;//    80  71  78  80  87  76  88  12  20  11   4   2000 Teaching (Expert)
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Raider"));
 CSoul Raven;//     85  76  92  68  19  77  94   5   5  17   2   1800 NightOps AutoWpns
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Raven"));
 CSoul Reaper;//    81  92  92  79  37  81  97  37  47   2   6   4000 Stealth  On-roof
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Reaper"));
 CSoul Red;//       68  66  81  69  21  79  78  33  99   5   4    900 Teaching Electr.
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Red"));
 CSoul Scope;//     87  89  76  64  39  81  99   4  21  17   5   2900 NightOps Teaching
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Scope"));
 CSoul Scully;//    90  90  96  85  70  93  92  61  66  36   5   4800 Knifing  (Expert)
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Scully"));
 CSoul Shadow;//    95  96  83  88  35  77  92  12  22  30   5   3100 Stealth  Camo
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Shadow"));
 CSoul Sidney;//    80  70  91  76  27  78  92   2  15  44   5   2000 Throwing (Expert)
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Sidney"));
 CSoul Spider;//    81  56  76  68  16  90  70   0   0  94   1    800 NightOps Stealth
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Spider"));
 CSoul Static;//    79  66  95  59  15  60  86  99  28  17   4   2500 Electr.  NightOps
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Static"));
 CSoul Stephen;//   97  71  78  80  59  94  82  15  66  15   5   1500 NightOps Teaching
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Stephen"));
 CSoul Steroid;//   99  56  48  97   9  62  89  76  13  22   1    950 Electr.  Lockpick
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Steroid"));
 CSoul Thor;//      96  83  84  89  61  97  74  35  11  70   3   1750 H2H      Stealth
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Thor"));
 CSoul Trevor;//    95  77  98  79  27  97  81  99  88   7   2   2800 Electr.  Lockpick
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Trevor"));
 CSoul Vicki;//     79  85  72  72  33  85  85  94  28  18   4   2200 Ambidext Throwing
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Vicki"));
 CSoul Wolf;//      90  83  86  85  22  76  79  65  40  48   3   1400 Teaching NightOps
-SoulFactory.push_back(CSoul(""));
+SoulFactory.push_back(CSoul("Wolf"));
 //M.E.R.C.
 
 //Name      HP Agi Dex Str Ldr Wis Mrk Mec Exp Med Lvl Daily$ Skill #1 Skill #2
