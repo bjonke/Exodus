@@ -1,19 +1,17 @@
-﻿Build started 2012-06-06 19:47:24.
-     1>Project "D:\Programming\endless-port\Network\Network\Network.vcxproj" on node 2 (build target(s)).
+﻿Build started 2012-06-18 21:00:22.
+     1>Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Network\Network\Network.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Network.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\endless-port\Debug\Network.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Network.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Programming\endless-port\Debug\Network.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\endless-port\Debug\Network.lib" /MACHINE:X86 Debug\main.obj
-         Network.vcxproj -> D:\Programming\endless-port\Debug\Network.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Programming\endless-port\Debug\Network.exe;#1" /manifest Debug\Network.exe.intermediate.manifest
+         All outputs are up-to-date.
+         Network.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Debug\Network.exe
        FinalizeBuildStatus:
          Deleting file "Debug\Network.unsuccessfulbuild".
          Touching "Debug\Network.lastbuildstate".
-     1>Done Building Project "D:\Programming\endless-port\Network\Network\Network.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Network\Network\Network.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.10
+Time Elapsed 00:00:00.29

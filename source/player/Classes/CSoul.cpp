@@ -10,15 +10,15 @@ using namespace std;
 
 CSoul::CSoul() 
 {
-	Init("Default");
+	Init("Default",0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 };
 
-CSoul::CSoul(string Name) 
+CSoul::CSoul(string Name,int HP,int Agi, int Dex,int Str,int Ldr,int Wis,int Mrk,int Mec,int Exp,int Med,int Lvl,int DailyCost,int Skill1,int Skill2) 
 {
-	Init(Name);
+	Init(Name,HP,Agi,Dex,Str,Ldr,Wis,Mrk,Mec,Exp,Med,Lvl,DailyCost,Skill1,Skill2);
 };
 
-int CSoul::Init(string InitName)
+int CSoul::Init(string InitName,int HP,int Agi, int Dex,int Str,int Ldr,int Wis,int Mrk,int Mec,int Exp,int Med,int Lvl,int DailyCost,int Skill1,int Skill2)
 {
 	// Standard Soul info
 	m_sName = InitName;
@@ -26,23 +26,25 @@ int CSoul::Init(string InitName)
 	cout << "The creator made a new soul..." << endl;
 	
 	// Attributes
-	m_iAgility = 0;
-	m_iDexterity = 0;
-	m_iStrength = 0;
-	m_iLeadership = 0;
-	m_iWisdom = 0;
+	m_iAgility = Agi;
+	m_iDexterity = Dex;
+	m_iStrength = Str;
+	m_iLeadership = Ldr;
+	m_iWisdom = Wis;
 
 	cout << "The creator zeroes in on the attributes..." << endl;
 	// Skills
-	m_iMarksmanship = 0;
-	m_iExplosives = 0;
-	m_iMechanical = 0;
-	m_iMedical = 0;	
+	m_iMarksmanship = Mrk;
+	m_iExplosives = Exp;
+	m_iMechanical = Mec;
+	m_iMedical = Med;	
+	m_iPrimary = Skill1;
+	m_iSecondary = Skill2;
 
 	cout << "The creator zeroes in on the Skills..." << endl;
 
 	// Energy Level
-	m_iHealth = 0;
+	m_iHealth = HP;
 	m_iEnergy = 0;
 	m_iMoral = 0;
 	m_iExperience = 0;

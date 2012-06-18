@@ -1,0 +1,17 @@
+Normal
+152
+136
+84
+
+disabled
+
+56
+49
+39
+
+font size 30
+
+swedish flag background
+
+button size
+490x60

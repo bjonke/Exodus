@@ -138,9 +138,12 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="graphics\CBitMapObject.cpp" />
     <ClCompile Include="misc\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="filehandling\CSV_reader.h" />
+    <ClInclude Include="graphics\CBitMapObject.h" />
     <ClInclude Include="misc\main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

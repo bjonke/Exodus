@@ -1,1 +1,1 @@
-640;480;Forgotten dreams
+1024,768,Exodus v0.1

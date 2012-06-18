@@ -14,11 +14,12 @@ class CSoul
 {
 public:
 	CSoul();
-	CSoul(string Name);
+	CSoul(string Name,int HP,int Agi, int Dex,int Str,int Ldr,int Wis,int Mrk,int Mec,int Exp,int Med,int Lvl,int DailyCost,int Skill1,int Skill2);
 	~CSoul();
 
 private:
-	
+
+	// Name      HP Agi Dex Str Ldr Wis Mrk Mec Exp Med Lvl Daily$ Skill #1 Skill #2
 	// Standard Soul info
 	string m_sName;
 
@@ -34,6 +35,8 @@ private:
 	int m_iExplosives;
 	int m_iMechanical;
 	int m_iMedical;
+	int m_iPrimary;
+	int m_iSecondary;
 
 	// Energy Level
 	int m_iHealth;
@@ -44,9 +47,8 @@ private:
 	// Costs
 	int m_iCost;
 
-	int Init(string InitName);
+	int Init(string InitName,int HP,int Agi, int Dex,int Str,int Ldr,int Wis,int Mrk,int Mec,int Exp,int Med,int Lvl,int DailyCost,int Skill1,int Skill2);
 };
-
 #endif
 
 /*
