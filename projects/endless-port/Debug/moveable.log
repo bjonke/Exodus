@@ -1,5 +1,5 @@
-﻿Build started 2012-06-18 21:00:22.
-     1>Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\moveable.vcxproj" on node 3 (build target(s)).
+﻿Build started 2012-06-18 21:34:46.
+     1>Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\moveable.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating ".\Debug\forgotten-dreams.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -25,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:07.80
+Time Elapsed 00:00:03.51

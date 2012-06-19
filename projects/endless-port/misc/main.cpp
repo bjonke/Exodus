@@ -36,6 +36,8 @@ CBitMapObject bmoBlocks;
 CBitMapObject bmoButtons[5];
 int Map[10][30+1]; //the game map!
 
+
+
 /***************************************************************************************
 	Main window entry point
 ****************************************************************************************/
@@ -174,13 +176,13 @@ bool GameInit()
 	FillRect(bmoMap,&rcTemp,(HBRUSH)GetStockObject(WHITE_BRUSH));
 	ReleaseDC(hWndMain,hdc);
 
-	bmoBlocks.Load(NULL,"menu-background.bmp");
+	bmoBlocks.Load(NULL,"./data/gfx/menu/menu-background.bmp");
 
-	bmoButtons[0].Load(NULL,"start-new-game.bmp");
-	bmoButtons[1].Load(NULL,"continue-saved-game.bmp");
-	bmoButtons[2].Load(NULL,"preferences.bmp");
-	bmoButtons[3].Load(NULL,"credits.bmp");
-	bmoButtons[4].Load(NULL,"quit.bmp");
+	bmoButtons[0].Load(NULL,"./data/gfx/menu/start-new-game.bmp");
+	bmoButtons[1].Load(NULL,"./data/gfx/menu/continue-saved-game.bmp");
+	bmoButtons[2].Load(NULL,"./data/gfx/menu/preferences.bmp");
+	bmoButtons[3].Load(NULL,"./data/gfx/menu/credits.bmp");
+	bmoButtons[4].Load(NULL,"./data/gfx/menu/quit.bmp");
 
 	//set the client area size
 	/*
