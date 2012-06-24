@@ -33,7 +33,7 @@ HWND hWndMain=NULL; //main window handle
 CBitMapObject bmoMap;
 //block images
 CBitMapObject bmoBlocks;
-CBitMapObject bmoButtons[5];
+CBitMapObject bmoButtons[10];
 int Map[10][30+1]; //the game map!
 
 
@@ -120,6 +120,15 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 				DestroyWindow(hwnd);
 				return(0);//handled message
 			}
+			//check for escape key
+			if(wParam==VK_SPACE)
+			{
+  				BitBlt(bmoMap,100,0,490,60,bmoButtons[5],0,0,SRCAND);
+				BitBlt(bmoMap,1000,0,490,60,bmoButtons[5],0,0,SRCPAINT);
+				
+				return(0);//handled message
+			}
+
 		}
 	case WM_TIMER:
 		break;
@@ -145,10 +154,11 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 			HDC hdc=BeginPaint(hwnd,&ps);
 
 			//redraw the map
-			BitBlt(hdc,0,0,1024,7680,bmoMap,0,0,SRCCOPY);
+			BitBlt(hdc,0,0,1024,768,bmoMap,0,0,SRCCOPY);
 
 			//end painting
 			EndPaint(hwnd,&ps);
+			
 					
 			//handled message, so return 0
 			return(0);
@@ -184,6 +194,11 @@ bool GameInit()
 	bmoButtons[3].Load(NULL,"./data/gfx/menu/credits.bmp");
 	bmoButtons[4].Load(NULL,"./data/gfx/menu/quit.bmp");
 
+	bmoButtons[5].Load(NULL,"./data/gfx/menu/start-new-game-active.bmp");
+	bmoButtons[6].Load(NULL,"./data/gfx/menu/continue-saved-game-active.bmp");
+	bmoButtons[7].Load(NULL,"./data/gfx/menu/preferences-active.bmp");
+	bmoButtons[8].Load(NULL,"./data/gfx/menu/credits-active.bmp");
+	bmoButtons[9].Load(NULL,"./data/gfx/menu/quit-active.bmp");
 	//set the client area size
 	/*
 	RECT rcTemp;
@@ -233,8 +248,8 @@ for(int xmy=10; xmy< 11; xmy++)
 		for(int ymx=0; ymx<4; ymx++)
 				DrawTile(12+xmy, ymx,2);
 */
-	BitBlt(bmoMap,0,0,490,60,bmoButtons[0],0,0,SRCAND);
-	BitBlt(bmoMap,0,0,490,60,bmoButtons[0],0,0,SRCPAINT);
+	//BitBlt(bmoMap,0,0,490,60,bmoButtons[0],0,0,SRCAND);
+	//BitBlt(bmoMap,0,0,490,60,bmoButtons[0],0,0,SRCPAINT);
 		BitBlt(bmoMap,0,60,490,60,bmoButtons[1],0,0,SRCAND);
 	BitBlt(bmoMap,0,60,490,60,bmoButtons[1],0,0,SRCPAINT);
 		BitBlt(bmoMap,0,120,490,60,bmoButtons[2],0,0,SRCAND);
