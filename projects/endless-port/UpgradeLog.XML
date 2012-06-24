@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="forgotten-dreams">
+</Property><Property Name="Solution File" Value="D:\Programming\endless-port\forgotten-dreams.sln">
+</Property><Property Name="User Options File" Value="D:\Programming\endless-port\forgotten-dreams.suo">
+</Property><Property Name="Date" Value="den 6 juni 2012">
+</Property><Property Name="Time" Value="19:35">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="forgotten-dreams.sln" Description="File successfully backed up as D:\Programming\endless-port\forgotten-dreams.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="forgotten-dreams.suo" Description="File successfully backed up as D:\Programming\endless-port\forgotten-dreams.suo.old">
+</Event><Event ErrorLevel="0" Project="moveable" Source="moveable.vcproj" Description="Converting project file 'D:\Programming\endless-port\moveable.vcproj'.">
+</Event><Event ErrorLevel="1" Project="moveable" Source="moveable.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="moveable" Source="moveable.vcproj" Description="MSB8012: $(TargetName) ('forgotten-dreams') does not match the Linker's OutputFile property value '.\Release/moveable.exe' ('moveable') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="moveable" Source="moveable.vcproj" Description="MSB8012: $(TargetPath) ('D:\Programming\endless-port\.\Release\forgotten-dreams.exe') does not match the Linker's OutputFile property value '.\Release/moveable.exe' ('D:\Programming\endless-port\Release/moveable.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="moveable" Source="moveable.vcproj" Description="MSB8012: $(TargetName) ('forgotten-dreams') does not match the Linker's OutputFile property value '.\Debug/moveable.exe' ('moveable') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="moveable" Source="moveable.vcproj" Description="MSB8012: $(TargetPath) ('D:\Programming\endless-port\.\Debug\forgotten-dreams.exe') does not match the Linker's OutputFile property value '.\Debug/moveable.exe' ('D:\Programming\endless-port\Debug/moveable.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="moveable" Source="moveable.vcproj" Description="Done converting to new project file 'D:\Programming\endless-port\moveable.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="moveable" Source="moveable.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network\Network\Network.vcproj" Description="Converting project file 'D:\Programming\endless-port\Network\Network\Network.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Network" Source="Network\Network\Network.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network\Network\Network.vcproj" Description="Done converting to new project file 'D:\Programming\endless-port\Network\Network\Network.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Network" Source="Network\Network\Network.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="forgotten-dreams.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="forgotten-dreams.sln" Description="Converted">
+</Event></UpgradeLog>
