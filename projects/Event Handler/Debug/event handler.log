@@ -1,0 +1,32 @@
+﻿Build started 2012-06-27 00:01:19.
+     1>Project "C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\event handler.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\event handler.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt event_handler.cpp main.cpp
+         main.cpp
+     1>c:\users\risk\documents\github\exodus\projects\event handler\main.cpp(91): warning C4355: 'this' : used in base member initializer list
+         event_handler.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\event handler.exe.embed.manifest.res" "Debug\event handler_manifest.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\event handler.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.lib" /MACHINE:X86 "Debug\event handler.exe.embed.manifest.res"
+         Debug\event_handler.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\event handler.exe.embed.manifest" /manifest "Debug\event handler.exe.intermediate.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\event handler.exe.embed.manifest.res" "Debug\event handler_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\event handler.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.lib" /MACHINE:X86 "Debug\event handler.exe.embed.manifest.res"
+         Debug\event_handler.obj
+         Debug\main.obj
+         event handler.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\event handler.unsuccessfulbuild".
+         Touching "Debug\event handler.lastbuildstate".
+     1>Done Building Project "C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\event handler.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.00
