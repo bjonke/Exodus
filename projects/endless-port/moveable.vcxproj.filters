@@ -27,6 +27,12 @@
     <ClCompile Include="graphics\CBitMapObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CFileManager.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameEngine.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="misc\main.h">
@@ -37,6 +43,15 @@
     </ClInclude>
     <ClInclude Include="filehandling\CSV_reader.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameState.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameEngine.h">
+      <Filter>Header Files\misc</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

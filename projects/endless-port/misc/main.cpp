@@ -4,9 +4,15 @@
 #include <wininet.h>
 #include <ctime>
 #include <stack>
+
+
+#include "../CGameEngine.h"
+//#include "introstate.h"
+
 #include "../misc/main.h"
 //now let's include our bitmapobject definitions
 #include "../graphics/CBitMapObject.h"
+#include "../CFileManager.h"
 
 extern bool Focused = true;
 DWORD start_time;
@@ -44,6 +50,22 @@ int Map[10][30+1]; //the game map!
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 				   PSTR szCmdLine, int iCmdShow) 
 {
+	CGameEngine game;
+
+	// initialize the engine
+	game.Init( "Engine Test v1.0" );
+
+	// load the intro
+	//game.ChangeState( CIntroState::Instance() );
+
+
+
+
+	CFileManager FileManager;
+	std::fstream test;
+	std::string LoadedObject;
+	FileManager.FileLoader(test,"TestData.txt");
+	FileManager.ObjectLoader(test,"ObjectData.txt",LoadedObject);
 	//assign instance to global variable
 	hInstMain=hInstance;
 
@@ -100,8 +122,18 @@ GameInit();
 			DispatchMessage(&msg);
 		}
 
+		// main loop
+		while ( game.Running() )
+		{
+			game.HandleEvents();
+			game.Update();
+			game.Draw();
+		}
 		GameLoop();
 	}
+	// cleanup the engine
+	game.Cleanup();
+
 	return(msg.wParam) ;
 }
 

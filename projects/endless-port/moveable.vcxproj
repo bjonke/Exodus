@@ -138,10 +138,15 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CFileManager.cpp" />
+    <ClCompile Include="CGameEngine.cpp" />
     <ClCompile Include="graphics\CBitMapObject.cpp" />
     <ClCompile Include="misc\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CFileManager.h" />
+    <ClInclude Include="CGameEngine.h" />
+    <ClInclude Include="CGameState.h" />
     <ClInclude Include="filehandling\CSV_reader.h" />
     <ClInclude Include="graphics\CBitMapObject.h" />
     <ClInclude Include="misc\main.h" />
