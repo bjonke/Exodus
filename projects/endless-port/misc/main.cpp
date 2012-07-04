@@ -111,8 +111,9 @@ hWndMain = CreateWindowEx(0,"ExodusClass",
 GameInit();
 	ShowWindow(hWndMain, SW_SHOWNORMAL) ; //iCmdShow
 	UpdateWindow(hWndMain);
+	//msg.message != WM_QUIT
 
-	while(msg.message != WM_QUIT)
+	while( game.Running() )
 	{
 		if(PeekMessage (&msg,0,0,0,PM_REMOVE))
 		{
@@ -121,14 +122,10 @@ GameInit();
 			TranslateMessage(&msg);
 			DispatchMessage(&msg);
 		}
-
-		// main loop
-		while ( game.Running() )
-		{
-			game.HandleEvents();
-			game.Update();
-			game.Draw();
-		}
+		
+		game.HandleEvents();
+		game.Update();
+		game.Draw();
 		GameLoop();
 	}
 	// cleanup the engine

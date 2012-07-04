@@ -33,6 +33,9 @@
     <ClCompile Include="CGameEngine.cpp">
       <Filter>Source Files\misc</Filter>
     </ClCompile>
+    <ClCompile Include="CIntroState.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="misc\main.h">
@@ -51,6 +54,9 @@
       <Filter>Header Files\misc</Filter>
     </ClInclude>
     <ClInclude Include="CGameEngine.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntroState.h">
       <Filter>Header Files\misc</Filter>
     </ClInclude>
   </ItemGroup>

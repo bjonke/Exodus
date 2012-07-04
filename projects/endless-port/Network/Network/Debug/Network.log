@@ -1,4 +1,4 @@
-﻿Build started 2012-07-03 20:02:44.
+﻿Build started 2012-07-04 03:23:04.
      1>Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Network\Network\Network.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Network.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -14,4 +14,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.91
+Time Elapsed 00:00:00.01
