@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>forgotten-dreams</ProjectName>
+    <ProjectName>endless-port</ProjectName>
     <ProjectGuid>{9B87325C-FE57-445B-B12F-2912A94DC68E}</ProjectGuid>
     <RootNamespace>moveable</RootNamespace>
   </PropertyGroup>
