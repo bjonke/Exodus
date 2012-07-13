@@ -18,13 +18,11 @@
 
 using namespace std;
 
-#include "../XMLLogger/Source/MyLogHandler.h"
 #include "../filehandling/CSV_reader.h"
 
 #define COMPILE_TIMESTAMP __DATE__ " " __TIME__
 #define FILE_INFO __FILE__, __LINE__
 
-CMyLogHandler xmllog(".\\XMLLogger\\Log\\DebugLog2.xml");
 const std::string path_pic = "sprites/";
 const std::string path_log = "logs/";
 
