@@ -4,6 +4,7 @@
 #include <wininet.h>
 #include <ctime>
 #include <stack>
+#include <vector>
 
 
 #include "../CGameEngine.h"
@@ -64,8 +65,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	CFileManager FileManager;
 	std::fstream test;
 	std::string LoadedObject;
+	vector<std::string> LoadedVector;
 	FileManager.FileLoader(test,"TestData.txt");
 	FileManager.ObjectLoader(test,"ObjectData.txt",LoadedObject);
+	FileManager.VectorLoader(test,"WeaponData.txt",LoadedVector);
 	//assign instance to global variable
 	hInstMain=hInstance;
 
@@ -123,9 +126,9 @@ GameInit();
 			DispatchMessage(&msg);
 		}
 		
-		game.HandleEvents();
-		game.Update();
-		game.Draw();
+		//game.HandleEvents();
+		//game.Update();
+		//game.Draw();
 		GameLoop();
 	}
 	// cleanup the engine

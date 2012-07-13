@@ -1,0 +1,604 @@
+#0: Nothing 
+class: other 
+type: (none) 
+ammo: (none) 
+clip: 10 rounds 
+damage: 0 
+range: 0.0 
+deadliness: 0 
+shots4x: 0 
+single: 0 APs    
+ready: 0 APs 
+weight: 0.0kg 
+price: 0 
+reliability: 0 
+repair ease: 0 
+ 
+#1: Glock 17 
+class: handgun 
+type: pistol 
+ammo: 9mm 
+clip: 15 rounds 
+damage: 21 
+range: 12.0 
+deadliness: 8 
+shots4x: 14 
+single: 6 APs  
+upg single: 5 APs  
+ready: 0 APs 
+weight: 0.6kg 
+price: 350 
+reliability: 2 
+repair ease: 2 
+ 
+#2: Glock 18 
+class: handgun 
+type: machine pistol 
+ammo: 9mm 
+clip: 15 rounds 
+damage: 21 
+range: 12.0 
+deadliness: 9 
+shots4x: 14 
+single: 6 APs 
+burst: 10 APs 
+upg single: 5 APs 
+upg burst: 8 APs 
+ready: 0 APs 
+burst size: 5 rounds 
+burst penalty: 15 
+weight: 0.6kg 
+price: 480 
+reliability: 1 
+repair ease: 1 
+ 
+#3: Beretta 92F 
+class: handgun 
+type: pistol 
+ammo: 9mm 
+clip: 15 rounds 
+damage: 22 
+range: 12.0 
+deadliness: 9 
+shots4x: 16 
+single: 6 APs  
+upg single: 5 APs  
+ready: 0 APs 
+weight: 1.1kg 
+price: 450 
+reliability: -1 
+repair ease: -1 
+ 
+#4: Beretta 93R 
+class: handgun 
+type: machine pistol 
+ammo: 9mm clip: 15 rounds 
+damage: 22 
+range: 12.0 
+deadliness: 9 
+shots4x: 13 
+single: 7 APs 
+burst: 11 APs 
+upg single: 6 APs 
+upg burst: 9 APs 
+ready: 0 APs 
+burst size: 5 rounds 
+burst penalty: 15 
+weight: 1.1kg 
+price: 470 
+reliability: -2 
+repair ease: -2 
+ 
+#5: .38 Special 
+class: handgun 
+type: pistol 
+ammo: .38 cal 
+clip: 6 rounds 
+damage: 22 
+range: 13.0 
+deadliness: 6 
+shots4x: 11 
+single: 8 APs  
+upg single: 7 APs  
+ready: 0 APs 
+weight: 1.1kg 
+price: 250 
+reliability: 4 
+repair ease: 4 
+ 
+#6: Barracuda 
+class: handgun 
+type: pistol 
+ammo: .357 cal 
+clip: 6 rounds 
+damage: 24 
+range: 13.5 
+deadliness: 7 
+shots4x: 11 
+single: 8 APs  
+upg single: 7 APs  
+ready: 0 APs 
+weight: 1.0kg 
+price: 300 
+reliability: 3 
+repair ease: 3 
+ 
+#7: Desert Eagle 
+class: handgun 
+type: pistol 
+ammo: .357 cal 
+clip: 9 rounds 
+damage: 24 
+range: 13.5 
+deadliness: 7 
+shots4x: 11 
+single: 8 APs  
+upg single: 7 APs  
+ready: 0 APs 
+weight: 1.7kg 
+price: 300 
+reliability: -1 
+repair ease: -1 
+ 
+#8: Colt .45 
+class: handgun
+type: pistol 
+ammo: .45 cal 
+clip: 7 rounds 
+damage: 23 
+range: 12.5 
+deadliness: 9 
+shots4x: 13 
+single: 7 APs  
+upg single: 6 APs  
+ready: 0 APs 
+weight: 1.1kg 
+price: 400 
+reliability: 0 
+repair ease: 0 
+ 
+#9: H&K MP5K class: smg type: smg ammo: 9mm clip: 30 rounds 
+damage: 23 range: 20.0 deadliness: 17 shots4x: 15 
+single: 6 APs burst: 10 APs upg single: 5 APs upg burst: 8 APs 
+ready: 1 APs burst size: 5 rounds burst penalty: 8 
+weight: 2.1kg price: 980 reliability: -1 repair ease: 0 
+ 
+#10: MAC-10 class: smg type: smg ammo: .45 cal clip: 30 rounds 
+damage: 27 range: 20.0 deadliness: 20 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 2 APs burst size: 5 rounds burst penalty: 8 
+weight: 2.8kg price: 1170 reliability: -2 repair ease: -1 
+ 
+#11: Thompson M1A1 class: smg type: smg ammo: .45 cal clip: 30 rounds 
+damage: 24 range: 20.0 deadliness: 14 shots4x: 10 
+single: 9 APs burst: 13 APs upg single: 7 APs upg burst: 10 APs 
+ready: 2 APs burst size: 4 rounds burst penalty: 8 
+weight: 4.8kg price: 700 reliability: 3 repair ease: -3 
+ 
+#12: Colt Commando class: smg type: smg ammo: 5.56mm clip: 30 rounds 
+damage: 29 range: 20.0 deadliness: 23 shots4x: 15 
+single: 6 APs burst: 10 APs upg single: 5 APs upg burst: 8 APs 
+ready: 2 APs burst size: 4 rounds burst penalty: 8 
+weight: 2.6kg price: 1330 reliability: 0 repair ease: -1 
+ 
+#13: H&K MP53 class: smg type: smg ammo: 5.56mm clip: 30 rounds 
+damage: 25 range: 20.0 deadliness: 15 shots4x: 12 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 8 
+weight: 3.1kg price: 770 reliability: -1 repair ease: -1 
+ 
+#14: AKSU-74 class: smg type: smg ammo: 5.45mm clip: 30 rounds 
+damage: 26 range: 20.0 deadliness: 21 shots4x: 17 
+single: 5 APs burst: 9 APs upg single: 4 APs upg burst: 7 APs 
+ready: 2 APs burst size: 4 rounds burst penalty: 8 
+weight: 3.9kg price: 1180 reliability: -2 repair ease: -1 
+ 
+#15: FN-P90 class: smg type: smg ammo: 5.7mm clip: 50 rounds 
+damage: 30 range: 22.5 deadliness: 42 shots4x: 15 
+single: 6 APs burst: 10 APs upg single: 5 APs upg burst: 8 APs 
+ready: 2 APs burst size: 5 rounds burst penalty: 8 
+weight: 2.8kg price: 2750 reliability: -2 repair ease: -4 
+ 
+#16: Type-85 class: smg type: smg ammo: 7.62mm WP clip: 30 rounds 
+damage: 23 range: 20.0 deadliness: 12 shots4x: 10 
+single: 9 APs burst: 13 APs upg single: 7 APs upg burst: 10 APs 
+ready: 1 APs burst size: 4 rounds burst penalty: 11 
+weight: 1.9kg price: 620 reliability: -4 repair ease: 2 
+ 
+#17: SKS class: rifle type: rifle ammo: 7.62mm WP clip: 10 rounds 
+damage: 31 range: 30.0 deadliness: 24 shots4x: 13 
+single: 7 APs  upg single: 6 APs  
+ready: 2 APs 
+weight: 3.9kg price: 1350 reliability: -4 repair ease: -2 
+ 
+#18: Dragunov class: rifle type: sniper rifle ammo: 7.62mm WP clip: 10 rounds 
+damage: 36 range: 75.0 deadliness: 32 shots4x: 11 
+single: 8 APs  upg single: 7 APs  
+ready: 5 APs 
+weight: 4.3kg price: 1930 reliability: 2 repair ease: 2 
+ 
+#19: M24 class: rifle type: sniper rifle ammo: 7.62mm NATO clip: 5 rounds 
+damage: 36 range: 80.0 deadliness: 32 shots4x: 8 
+single: 11 APs  upg single: 9 APs  
+ready: 5 APs 
+weight: 6.6kg price: 1950 reliability: 4 repair ease: 4 
+ 
+#20: Steyr AUG class: rifle type: assault rifle ammo: 5.56mm clip: 30 rounds 
+damage: 30 range: 50.0 deadliness: 38 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 8 
+weight: 3.6kg price: 2380 reliability: 1 repair ease: -2 
+ 
+#21: H&K G41 class: rifle type: assault rifle ammo: 5.56mm clip: 30 rounds 
+damage: 29 range: 30.0 deadliness: 27 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 2 APs burst size: 4 rounds burst penalty: 8 
+weight: 4.1kg price: 1620 reliability: 1 repair ease: -1 
+ 
+#22: Ruger Mini-14 class: rifle type: rifle ammo: 5.56mm clip: 30 rounds 
+damage: 30 range: 25.0 deadliness: 20 shots4x: 13 
+single: 7 APs  upg single: 6 APs  
+ready: 2 APs 
+weight: 2.9kg price: 1100 reliability: 0 repair ease: -1 
+ 
+#23: C-7 class: rifle type: assault rifle ammo: 5.56mm clip: 30 rounds 
+damage: 30 range: 40.0 deadliness: 41 shots4x: 15 
+single: 6 APs burst: 10 APs upg single: 5 APs upg burst: 8 APs 
+ready: 2 APs burst size: 5 rounds burst penalty: 8 
+weight: 3.6kg price: 2680 reliability: -1 repair ease: -1 
+ 
+#24: FA-MAS class: rifle type: assault rifle ammo: 5.56mm clip: 30 rounds 
+damage: 30 range: 25.0 deadliness: 32 shots4x: 17 
+single: 5 APs burst: 9 APs upg single: 4 APs upg burst: 7 APs 
+ready: 2 APs burst size: 5 rounds burst penalty: 8 
+weight: 3.6kg price: 1970 reliability: -2 repair ease: -2 
+ 
+#25: AK-74 class: rifle type: assault rifle ammo: 5.45mm clip: 30 rounds 
+damage: 28 range: 35.0 deadliness: 30 shots4x: 17 
+single: 5 APs burst: 9 APs upg single: 4 APs upg burst: 7 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 8 
+weight: 3.6kg price: 1830 reliability: -1 repair ease: -2 
+ 
+#26: AKM class: rifle type: assault rifle ammo: 7.62mm WP clip: 30 rounds 
+damage: 29 range: 25.0 deadliness: 25 shots4x: 17 
+single: 5 APs burst: 9 APs upg single: 4 APs upg burst: 7 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 11 
+weight: 4.3kg price: 1450 reliability: 2 repair ease: 2 
+ 
+#27: M-14 class: rifle type: assault rifle ammo: 7.62mm NATO clip: 20 rounds 
+damage: 33 range: 33.0 deadliness: 33 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 2 APs burst size: 4 rounds burst penalty: 11 
+weight: 2.9kg price: 2120 reliability: 1 repair ease: -1 
+ 
+#28: FN-FAL class: rifle type: assault rifle ammo: 7.62mm NATO clip: 20 rounds 
+damage: 32 range: 42.5 deadliness: 41 shots4x: 17 
+single: 5 APs burst: 9 APs upg single: 4 APs upg burst: 7 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 11 
+weight: 4.3kg price: 2680 reliability: 0 repair ease: -1 
+ 
+#29: H&K G3A3 class: rifle type: assault rifle ammo: 7.62mm NATO clip: 20 rounds 
+damage: 31 range: 30.0 deadliness: 26 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 11 
+weight: 4.4kg price: 1570 reliability: 1 repair ease: -1 
+ 
+#30: H&K G11 class: rifle type: assault rifle ammo: 4.7mm clip: 50 rounds 
+damage: 27 range: 30.0 deadliness: 40 shots4x: 13 
+single: 7 APs burst: 8 APs upg single: 6 APs upg burst: 7 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 0 
+weight: 3.8kg price: 2530 reliability: 3 repair ease: -4 
+ 
+#31: Remington M870 class: shotgun type: shotgun ammo: 12 gauge clip: 7 rounds 
+damage: 32 range: 13.5 deadliness: 14 shots4x: 7 
+single: 13 APs  upg single: 11 APs  
+ready: 2 APs 
+weight: 3.6kg price: 670 reliability: 3 repair ease: 3 
+ 
+#32: SPAS-15 class: shotgun type: shotgun ammo: 12 gauge clip: 7 rounds 
+damage: 32 range: 13.5 deadliness: 18 shots4x: 10 
+single: 9 APs  upg single: 7 APs  
+ready: 2 APs 
+weight: 3.8kg price: 980 reliability: -2 repair ease: -2 
+ 
+#33: CAWS class: shotgun type: shotgun ammo: CAWS clip: 10 rounds 
+damage: 40 range: 13.5 deadliness: 44 shots4x: 10 
+single: 9 APs burst: 13 APs upg single: 7 APs upg burst: 10 APs 
+ready: 2 APs burst size: 3 rounds burst penalty: 11 
+weight: 4.1kg price: 2900 reliability: -3 repair ease: -3 
+ 
+#34: FN Minimi class: machinegun type: light machine gun ammo: 5.56mm clip: 30 rounds 
+damage: 28 range: 50.0 deadliness: 48 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 3 APs burst size: 6 rounds burst penalty: 5 
+weight: 6.8kg price: 3100 reliability: -1 repair ease: -2 
+ 
+#35: RPK-74 class: machinegun type: light machine gun ammo: 5.45mm clip: 30 rounds 
+damage: 30 range: 50.0 deadliness: 49 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 2 APs burst size: 5 rounds burst penalty: 5 
+weight: 4.8kg price: 3180 reliability: -1 repair ease: -2 
+ 
+#36: H&K 21 class: machinegun type: light machine gun ammo: 7.62mm NATO clip: 20 rounds 
+damage: 32 range: 50.0 deadliness: 52 shots4x: 13 
+single: 7 APs burst: 11 APs upg single: 6 APs upg burst: 9 APs 
+ready: 3 APs burst size: 5 rounds burst penalty: 7 
+weight: 9.3kg price: 3420 reliability: 2 repair ease: 1 
+ 
+#37: Combat Knife class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 18 range: 4.0 deadliness: 5 shots4x: 12 
+single: 7 APs    
+ready: 0 APs 
+weight: 0.9kg price: 100 reliability: 2 repair ease: 2 
+ 
+#38: Throwing Knife class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 15 range: 15.0 deadliness: 4 shots4x: 12 
+single: 7 APs    
+ready: 0 APs 
+weight: 0.1kg price: 50 reliability: -1 repair ease: -1 
+ 
+#39: A Rock class: other type: (none) ammo: (none) clip: 0 rounds 
+damage: 0 range: 0.0 deadliness: 0 shots4x: 0 
+single: 0 APs    
+ready: 0 APs 
+weight: 0.5kg price: 0 reliability: 0 repair ease: 0 
+ 
+#40: Grenade Launcher class: rifle type: (none) ammo: (none) clip: 0 rounds 
+damage: 1 range: 50.0 deadliness: 80 shots4x: 5 
+single: 18 APs    
+ready: 3 APs 
+weight: 2.6kg price: 900 reliability: 0 repair ease: -1 
+ 
+#41: Mortar class: rifle type: (none) ammo: (none) clip: 0 rounds 
+damage: 1 range: 55.0 deadliness: 100 shots4x: 5 
+single: 18 APs    
+ready: 0 APs 
+weight: 7.7kg price: 1800 reliability: 0 repair ease: -2 
+ 
+#42: Another Rock class: other type: (none) ammo: (none) clip: 0 rounds 
+damage: 0 range: 0.0 deadliness: 0 shots4x: 0 
+single: 0 APs    
+ready: 0 APs 
+weight: 0.4kg price: 0 reliability: 0 repair ease: 0 
+ 
+#43: Young Male Creature Claws class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 14 range: 1.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#44: Young Female Creature Claws class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 18 range: 1.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#45: Adult Male Creature Claws class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 20 range: 1.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#46: Adult Female Creature Claws class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 24 range: 1.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#47: Queen Tentacle class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 20 range: 7.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#48: Queen Creature Spit class: monster type: (none) ammo: monster clip: 50 rounds 
+damage: 20 range: 30.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#49: Knuckle Dusters class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 12 range: 1.0 deadliness: 1 shots4x: 15 
+single: 6 APs    
+ready: 0 APs 
+weight: 0.1kg price: 20 reliability: 0 repair ease: 0 
+ 
+#50: Underslung Grenade Launcher class: rifle type: (none) ammo: (none) clip: 0 rounds 
+damage: 1 range: 45.0 deadliness: 80 shots4x: 7 
+single: 13 APs    
+ready: 3 APs 
+weight: 1.3kg price: 500 reliability: 0 repair ease: 0 
+ 
+#51: LAW class: rifle type: (none) ammo: (none) clip: 1 rounds 
+damage: 80 range: 50.0 deadliness: 80 shots4x: 5 
+single: 18 APs    
+ready: 0 APs 
+weight: 2.1kg price: 500 reliability: 0 repair ease: -3 
+ 
+#52: Bloodcat Claws class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 12 range: 1.0 deadliness: 1 shots4x: 14 
+single: 6 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#53: Bloodcat Bite class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 24 range: 1.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#54: Machete class: knife type: (none) ammo: (none) clip: 0 rounds 
+damage: 24 range: 4.0 deadliness: 6 shots4x: 9 
+single: 10 APs    
+ready: 0 APs 
+weight: 1.3kg price: 200 reliability: 0 repair ease: 3 
+ 
+#55: Rocket Rifle class: rifle type: rifle ammo: rocket clip: 5 rounds 
+damage: 38 range: 60.0 deadliness: 62 shots4x: 10 
+single: 9 APs    
+ready: 2 APs 
+weight: 4.0kg price: 5000 reliability: 0 repair ease: -5 
+ 
+#56: Automag III class: handgun type: pistol ammo: 7.62mm NATO clip: 5 rounds 
+damage: 29 range: 22.0 deadliness: 13 shots4x: 9 
+single: 10 APs  upg single: 8 APs  
+ready: 1 APs 
+weight: 1.2kg price: 1000 reliability: 0 repair ease: -2 
+ 
+#57: Infant Creature Spit class: monster type: (none) ammo: monster clip: 5 rounds 
+damage: 12 range: 20.0 deadliness: 1 shots4x: 13 
+single: 7 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#58: Young Male Spit class: monster type: (none) ammo: monster clip: 10 rounds 
+damage: 16 range: 20.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#59: Old Male Spit class: monster type: (none) ammo: monster clip: 20 rounds 
+damage: 20 range: 20.0 deadliness: 1 shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 0.0kg price: 0 reliability: 0 repair ease: 0 
+ 
+#60: Tank Cannon class: rifle type: (none) ammo: (none) clip: 1 rounds 
+damage: 80 range: 80.0 deadliness: 80 shots4x: 8 
+single: 11 APs    
+ready: 0 APs 
+weight: 2.6kg price: 0 reliability: 0 repair ease: 0 
+ 
+#61: Dart Gun class: handgun type: pistol ammo: dart clip: 1 rounds 
+damage: 2 range: 20.0 deadliness: 10 shots4x: 13 
+single: 7 APs    
+ready: 1 APs 
+weight: 1.2kg price: 500 reliability: 0 repair ease: 3 
+ 
+#62: Bloody Throwing Knife 
+class: knife 
+type: (none) 
+ammo: (none) 
+clip: 0 rounds 
+damage: 15 
+range: 15.0 
+deadliness: 3 
+shots4x: 12 
+single: 7 APs    
+ready: 0 APs 
+weight: 0.1kg 
+price: 50 
+reliability: 0 
+repair ease: 4 
+ 
+#63: Flamethrower 
+class: shotgun 
+type: shotgun 
+ammo: flame 
+clip: 5 rounds 
+damage: 60 
+range: 13.0 
+deadliness: 53 
+shots4x: 10 
+single: 9 APs    
+ready: 2 APs 
+weight: 1.8kg 
+price: 0 
+reliability: 0 
+repair ease: 0 
+ 
+#64: Crowbar 
+class: knife 
+type: (none) 
+ammo: (none) 
+clip: 0 rounds 
+damage: 25 
+range: 1.0 
+deadliness: 4 
+shots4x: 10 
+single: 9 APs    
+ready: 0 APs 
+weight: 3.0kg 
+price: 40 
+reliability: 0 
+repair ease: -4 
+ 
+#65: Auto Rocket Rifle 
+class: rifle 
+type: assault rifle 
+ammo: rocket 
+clip: 5 rounds 
+damage: 38 
+range: 60.0 
+deadliness: 97 
+shots4x: 12 
+single: 7 APs 
+burst: 11 APs   
+ready: 2 APs 
+burst size: 5 rounds 
+burst penalty: 10 
+weight: 4.0kg 
+price: 10000 
+reliability: 0 
+repair ease: -5 
+ 
+#66:  class: other 
+type: (none) 
+ammo: (none) 
+clip: 0 rounds 
+damage: 0 
+range: 0.0 
+deadliness: 0 
+shots4x: 0 
+single: 0 APs    
+ready: 0 APs 
+weight: 0.0kg 
+price: 0 
+reliability: 0 
+repair ease: 0 
+ 
+#67:  class: other 
+type: (none) 
+ammo: (none) 
+clip: 0 rounds 
+damage: 0 
+range: 0.0 
+deadliness: 0 
+shots4x: 0 
+single: 0 APs    
+ready: 0 APs 
+weight: 0.0kg 
+price: 0 
+reliability: 0 
+repair ease: 0 
+ 
+#68:  class: other 
+type: (none) 
+ammo: (none) 
+clip: 0 rounds 
+damage: 0 
+range: 0.0 
+deadliness: 0 
+shots4x: 0 
+single: 0 APs    
+ready: 0 APs 
+weight: 0.0kg 
+price: 0 
+reliability: 0 
+repair ease: 0 
+ 
+#69:  class: other 
+type: (none) 
+ammo: (none) 
+clip: 0 rounds 
+damage: 0 
+range: 0.0 
+deadliness: 0 
+shots4x: 0 
+single: 0 APs    
+ready: 0 APs 
+weight: 0.0kg 
+price: 0 
+reliability: 0 
+repair ease: 0 
+ 

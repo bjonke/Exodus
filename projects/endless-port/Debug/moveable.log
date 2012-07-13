@@ -1,7 +1,6 @@
-﻿  main.cpp
-  CBitMapObject.cpp
-  CIntroState.cpp
-  CGameEngine.cpp
-  CFileManager.cpp
+﻿  CFileManager.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
   Generating Code...
   moveable.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\.\Debug\endless-port.exe

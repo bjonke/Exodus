@@ -1,0 +1,16 @@
+## AMMO HEADER ##
+.38 cal
+.357 cal
+9mm
+.45 cal
+dart
+7.62mm WP
+7.62mm NATO
+12 gauge
+5.56mm
+5.45mm
+4.7mm
+CAWS
+flame
+rocket
+(none)

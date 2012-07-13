@@ -43,7 +43,38 @@ void CFileManager::ObjectLoader(std::fstream& i_stream,std::string i_filepath,st
 
 	if(i_stream.is_open())
 	{
-		i_stream >> object; 
+		while (i_stream.good())
+		{
+			i_stream >> object;
+			cout << (char) i_stream.get();
+        }
+
+		//i_stream >> object; 
+		i_stream.close();
+	}
+	else
+	{
+		cout << "Error opening file" << endl;
+	}
+
+	cout << "Loading object" << endl;	
+}
+
+void CFileManager::VectorLoader(std::fstream& i_stream,std::string i_filepath, vector<string> &object)
+{
+	std::string FileRow;
+
+	i_stream.open(i_filepath.c_str());
+
+	if(i_stream.is_open())
+	{
+		while (i_stream.good())
+		{
+			i_stream >> FileRow;
+			object.push_back(FileRow);
+        }
+
+		//i_stream >> object; 
 		i_stream.close();
 	}
 	else
