@@ -1,17 +1,7 @@
-﻿Build started 2012-07-04 03:23:04.
-     1>Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Network\Network\Network.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\Network.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         All outputs are up-to-date.
-       Link:
-         All outputs are up-to-date.
-         Network.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Debug\Network.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\Network.unsuccessfulbuild".
-         Touching "Debug\Network.lastbuildstate".
-     1>Done Building Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Network\Network\Network.vcxproj" (build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.01
+﻿  main.cpp
+c:\users\risk\documents\github\exodus\projects\endless-port\network\network\main.cpp(99): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+c:\users\risk\documents\github\exodus\projects\endless-port\network\network\main.cpp(111): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+c:\users\risk\documents\github\exodus\projects\endless-port\network\network\main.cpp(13): warning C4101: 'clientAddr' : unreferenced local variable
+  Network.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Debug\Network.exe
