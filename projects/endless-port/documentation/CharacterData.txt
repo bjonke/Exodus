@@ -325,48 +325,111 @@ militia: 32
 Notes:  
  
 #9: Igor 
-Igor Dolvich Male body: Regular male 
-hlt 91 agi 89 dex 75 str 82 ldr 4 wis 84 
-mrk 77 mec 36 exp 19 med 17  lvl 2 
-skills: stealthy (none)  trait: (none) 
-attitude: normal base morale: 0 sexism: not 
-salary: 500 weekly: 3200 bi-weekly: 5500 deposit: no 
+Igor Dolvich 
+Male 
+body: Regular male 
+hlt 91 
+agi 89 
+dex 75 
+str 82 
+ldr 4 
+wis 84 
+mrk 77
+mec 36 
+exp 19 
+med 17  
+lvl 2 
+skills: stealthy (none)  
+trait: (none) 
+attitude: normal 
+base morale: 0 
+sexism: not 
+salary: 500 
+weekly: 3200 
+bi-weekly: 5500 
+deposit: no 
 appearance: GREENPANTS BROWNVEST PINKSKIN BROWNHEAD 
 equipment: Barracuda Knife Steel Helmet .357 S-load 
 friends: Ivan Grunty    
 enemies:      
-civilian group: (none)  learn-to-hate:  
-APs: 20 healing: 6 repair: 4 militia: 43 
+civilian group: (none)  
+learn-to-hate:  
+APs: 20 
+healing: 6 
+repair: 4 
+militia: 43 
 Notes:  
  
 #10: Shadow 
-Kyle "Shadow" Simmons Male body: Regular male 
-hlt 95 agi 96 dex 83 str 88 ldr 35 wis 77 
-mrk 92 mec 12 exp 22 med 30  lvl 5 
-skills: stealthy camouflaged  trait: (none) 
-attitude: loner base morale: 2 sexism: not 
-salary: 3100 weekly: 20500 bi-weekly: 39000 deposit: no 
+Kyle "Shadow" Simmons 
+Male 
+body: Regular male 
+hlt 95 
+agi 96 
+dex 83 
+str 88 
+ldr 35 
+wis 77 
+mrk 92 
+mec 12 
+exp 22 
+med 30  
+lvl 5 
+skills: stealthy camouflaged  
+trait: (none) 
+attitude: loner 
+base morale: 2 
+sexism: not 
+salary: 3100
+weekly: 20500 
+bi-weekly: 39000
+deposit: no 
 appearance: GREENPANTS GREENVEST PINKSKIN BLACKHEAD 
 equipment: MP53 Steel Helmet Kevlar Vest 5.56mm mag 
 friends:      
 enemies:      
-civilian group: (none)  learn-to-hate:  
-APs: 22 healing: 13 repair: 2 militia: 65 
+civilian group: (none)  
+learn-to-hate:  
+APs: 22 
+healing: 13 
+repair: 2 
+militia: 65 
 Notes:  
  
 #11: Red 
-Ernie "Red" Spragg Male body: Regular male 
-hlt 68 agi 66 dex 81 str 69 ldr 21 wis 79 
-mrk 78 mec 33 exp 99 med 5  lvl 4 
-skills: teaching electronics  trait: (none) 
-attitude: pessimist base morale: 4 sexism: very 
-salary: 900 weekly: 5900 bi-weekly: 10000 deposit: no 
+Ernie "Red" Spragg 
+Male 
+body: Regular male 
+hlt 68 
+agi 66 
+dex 81 
+str 69 
+ldr 21 
+wis 79 
+mrk 78 
+mec 33 
+exp 99 
+med 5  
+lvl 4 
+skills: teaching electronics  
+trait: (none) 
+attitude: pessimist 
+base morale: 4 
+sexism: very 
+salary: 900 
+weekly: 5900 
+bi-weekly: 10000 
+deposit: no 
 appearance: JEANPANTS BROWNVEST PINKSKIN REDHEAD 
 equipment: Glock 17 Steel Helmet Flak Jacket 9mm mag Detonator 
 friends:      
 enemies: Buns     
-civilian group: (none)  learn-to-hate:  
-APs: 18 healing: 2 repair: 5 militia: 73 
+civilian group: (none)  
+learn-to-hate:  
+APs: 18 
+healing: 2 
+repair: 5 
+militia: 73 
 Notes:  
  
 #12: Reaper 

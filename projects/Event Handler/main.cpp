@@ -145,6 +145,19 @@ public:
 		registerEventFunc(this, &Mercenary::onEnemyHit);
 		registerEventFunc(this, &Mercenary::onTalk);
 	}
+
+	std::string getShortName()	const {return _shortname;}
+	std::string getFullName()	const {return _fullname;}
+	int getHealth()	const {return _hlt;}
+	int getAgility()	const {return _agi;}
+	int getDexterity()	const {return _dex;}
+	int getStrength()	const {return _str;}
+	int getLeadership()	const {return _ldr;}
+	int getWisdom()	const {return _wis;}
+	int getMarksmanship()	const {return _mrk;}
+	int getMechanic()	const {return _mec;}
+	int getExplosive()	const {return _exp;}
+
 	void receiveDamage(int dmg)
 	{
 		_hp -= dmg;
@@ -160,7 +173,7 @@ public:
 		std::cout << "talk: " << _hp << std::endl;
 		if(_hp <= 0)
 		{
-			std::cout << _shortname.c_str() << " is talking..." << std::endl;
+			std::cout << this->getShortName().c_str() << " is talking..." << std::endl;
 		}
 	}
 
@@ -168,7 +181,7 @@ public:
 	{
 		if(abs(_pos - explosion->getPosition()) < 20)
 		{
-			std::cout << "Hit by explosion!!!" << std::endl;
+			std::cout << "Boom!!!" << std::endl << this->getExplosive();
 			receiveDamage(explosion->getDamage());
 		}
 		else
@@ -193,7 +206,7 @@ public:
 	void onEnemyHit(const EnemyHit* hit)
 	{
 		Enemy* enemy = hit->getEnemy();
-		std::cout << "Hit by enemy: " << enemy->getName().c_str() << " got damage: " << enemy->getDamage() << std::endl;
+		std::cout << enemy->getName().c_str() << " hits " << this->getShortName().c_str() << " for " << enemy->getDamage() << std::endl;
 		receiveDamage(enemy->getDamage());
 	}
 
@@ -239,8 +252,50 @@ public:
 
 int main()
 {
+
+
 	std::cout << "=== Mercenary ===" << std::endl; 
-	Mercenary Barry("Larry");	
+	Mercenary Barry("Barry");
+	Mercenary Blood("Blood");
+	Mercenary Bull("Bull");
+	Mercenary Buns("Buns");
+	Mercenary Buzz("Buzz");
+
+	unsigned long n;
+	do {
+		std::cout << "1.Explosion " << std::endl;
+		std::cout << "2. Talk " << std::endl;
+		std::cout << "3. EnemyHit " << std::endl;
+		std::cout << "4. EnemyHit " << std::endl;
+		std::cout << "5. EnemyHit " << std::endl;
+		std::cout << "6. EnemyHit " << std::endl;
+		std::cout << "7. EnemyHit " << std::endl;
+		std::cout << "8. EnemyHit " << std::endl;
+		std::cout << "9. EnemyHit " << std::endl;
+
+		std::cout << "Enter number (0 to end): ";
+		std::cin >> n;
+		if( n == 1 )
+			Barry.handleEvent(new Explosion(10));
+		if( n == 2 )
+			Barry.handleEvent(new Talk(10));
+		if( n == 3 )
+			Barry.handleEvent(new EnemyHit(new Enemy));
+		if( n == 4 )
+			Barry.handleEvent(new Explosion(40));
+		if( n == 5 )
+			Barry.handleEvent(new Explosion(40));
+		if( n == 6 )
+			Barry.handleEvent(new Explosion(40));
+		if( n == 7 )
+			Barry.handleEvent(new Explosion(40));
+		if( n == 8 )
+			Barry.handleEvent(new Explosion(40));
+		if( n == 9 )
+			Barry.handleEvent(new Explosion(40));
+
+	} while (n != 0);
+
 	Barry.handleEvent(new Explosion(40));
 	Barry.handleEvent(new Explosion(10));
 	Barry.handleEvent(new Talk(10));
