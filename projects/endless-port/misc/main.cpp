@@ -57,7 +57,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	game.Init( "Engine Test v1.0" );
 
 	// load the intro
-	//game.ChangeState( CIntroState::Instance() );
+	game.ChangeState( CIntroState::Instance() );
 
 
 

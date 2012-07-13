@@ -59,5 +59,11 @@
     <ClInclude Include="CIntroState.h">
       <Filter>Header Files\misc</Filter>
     </ClInclude>
+    <ClInclude Include="CBarryState.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

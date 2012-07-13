@@ -145,6 +145,8 @@
     <ClCompile Include="misc\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CCharacterData.h" />
+    <ClInclude Include="CBarryState.h" />
     <ClInclude Include="CFileManager.h" />
     <ClInclude Include="CGameEngine.h" />
     <ClInclude Include="CGameState.h" />

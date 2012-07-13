@@ -1,6 +1,3 @@
-﻿  CFileManager.cpp
-  Generating Code...
-  Compiling...
-  main.cpp
-  Generating Code...
-  moveable.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\.\Debug\endless-port.exe
+﻿  main.cpp
+c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(60): error C2653: 'CIntroState' : is not a class or namespace name
+c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(60): error C3861: 'Instance': identifier not found

@@ -1,0 +1,2286 @@
+JA2 Mercenary and NPC Statistics
+Auto-generated from Jagged Alliance 2 Gold v1.12 data file (Data\BinaryData\Prof.dat).
+All information comes directly from the game data file except for 'notes' and the computed fields (APs, heal, repair, militia).
+NOTE: the nickname in the second entry for Larry (which represents Larry after he has been drinking) has been changed to 'LarryD' for clarity. 
+
+Back to main page 
+
+Recruitable Character Summary (80-col format)
+
+Name     HLT AGI DEX STR LDR WIS MRK MEC EXP MED LVL Daily Skill 1  Skill 2
+Barry     82  72  87  80  29  91  70  44  92  20  2    700 electron lockpick
+Blood     84  94  87  82   6  75  78  23  31  51  3    850 throwing martial 
+Bull      96  59  44  98  23  64  72  25  17  10  2    400 hand-to- hand-to-
+Buns      79  78  87  59  24  93  86   8   4  48  2    725 teaching teaching
+Buzz      71  84  47  68  13  90  96   5  19   0  4   2200 heavy we auto wea
+Cliff     82  60  53  64  33  87  84   4  31  84  4   1600 (none)   (none)  
+Danny     99  99  79  73  10  91  61  12   0  88  3   1300 ambidext (none)  
+Dr. Q     88  92  81  73  26  91  60  19  20  87  3   1500 martial  night op
+Fidel     88  83  64  83   1  71  85   6  97   3  3   2000 hand-to- (none)  
+Fox       77  85 100  55  21  76  69  15   8  70  2    625 teaching ambidext
+Grizzly   94  69  50  95  16  72  79  24  37   8  2    525 hand-to- heavy we
+Grunty    82  79  76  71  21  72  78  44  28  22  3    550 night op heavy we
+Gus       75  65  84  82  83  94  97  80  76  68  8   6000 heavy we heavy we
+Hitman    75  77  40  69  52  74  88  11  39   3  4   1000 throwing teaching
+Ice       90  88  87  84  23  78  86  42   3   7  3   1500 teaching auto wea
+Igor      91  89  75  82   4  84  77  36  19  17  2    500 stealthy (none)  
+Ivan      94  90  95  87  35  83  92  14  55  15  4   2950 auto wea heavy we
+Len       89  80  88  77  61  83  83  54  47  35  7   2400 auto wea teaching
+Lynx      81  79  86  77  39  71  99  29  50  34  4   2850 electron night op
+MD        72  62  78  76   4  94  66   7   0  80  1    500 knifing  teaching
+Magic     95  99  98  92  16  80  94  91  27  24  5   5500 lockpick stealthy
+Malice    83  81  97  89  13  55  83  14  16  12  3   1200 knifing  hand-to-
+Meltdown  78  74  84  76  24  82  83  22  40   3  3    800 heavy we ambidext
+Nails     72  60  88  90  24  79  84  63  78  11  4   1800 lockpick (none)  
+Raider    80  71  78  80  87  76  88  12  20  11  4   2000 teaching teaching
+Raven     85  76  92  68  19  77  94   5   5  17  2   1800 night op auto wea
+Reaper    81  92  92  79  37  81  97  37  47   2  6   4000 stealthy on roof 
+Red       68  66  81  69  21  79  78  33  99   5  4    900 teaching electron
+Scope     87  89  76  64  39  81  99   4  21  17  5   2900 night op teaching
+Scully    90  90  96  85  70  93  92  61  66  36  5   4800 knifing  knifing 
+Shadow    95  96  83  88  35  77  92  12  22  30  5   3100 stealthy camoufla
+Sidney    80  70  91  76  27  78  92   2  15  44  5   2000 throwing throwing
+Spider    81  56  76  68  16  90  70   0   0  94  1    800 night op stealthy
+Static    79  66  95  59  15  60  86  99  28  17  4   2500 electron night op
+Stephen   97  71  78  80  59  94  82  15  66  15  5   1500 night op teaching
+Steroid   99  56  48  97   9  62  89  76  13  22  1    950 electron lockpick
+Thor      96  83  84  89  61  97  74  35  11  70  3   1750 hand-to- stealthy
+Trevor    95  77  98  79  27  97  81  99  88   7  2   2800 electron lockpick
+Vicki     79  85  72  72  33  85  84  94  28  18  4   2200 ambidext throwing
+Wolf      90  83  86  85  22  76  79  65  40  48  3   1400 teaching night op
+
+Name     HLT AGI DEX STR LDR WIS MRK MEC EXP MED LVL Daily Skill 1  Skill 2
+Biff      73  74  71  41  13  58  57   0   4  24  2    200 teaching (none)  
+Bubba     86  54  68  98   5  29  77  59  61   0  4    600 hand-to- (none)  
+Cougar    88  83  79  87  31  75  93  58  45  33  5   2000 auto wea stealthy
+Flo       58  37  64  45   1  82  38   7   2  19  1    100 teaching (none)  
+Gasket    72  61  89  68   3  49  44  82   8   0  1    200 lockpick (none)  
+Gumpy     67  45  67  70  11  94  44   0  56   9  1    150 electron (none)  
+Haywire   65  59  76  71   1  58  48   8  31   2  1    150 auto wea knifing 
+Larry     69  87  79  67  18  70  70  14  92  70  3    700 stealthy lockpick
+LarryD    69  72  54  35   4  58  50   7  82  49  1    700 (none)   (none)  
+Numb      84  72  61  78  10  70  88   9  13  30  3    900 night op martial 
+Razor     73  88  91  86   4  53  50   8  11  12  2    150 knifing  knifing 
+
+Name     HLT AGI DEX STR LDR WIS MRK MEC EXP MED LVL Daily Skill 1  Skill 2
+Carlos    79  91  61  68  38  71  67  34  20  11  4      0 throwing stealthy
+Conrad    76  69  84  81  51  88  95  22  68  49  5   5500 teaching auto wea
+Darrel    85  70  70  78   3  12  91   0   0   0  2      0 (none)   (none)  
+Devin     73  61  88  71  11  72  67  34  96   2  3    800 electron knifing 
+Dimitri   75  73  51  71  21  56  77  71  12  17  1      0 throwing throwing
+Dynamo    76  57  67  55   8  78  68  67   9  21  1     50 lockpick lockpick
+Hamous    68  68  66  69   5  35  78  19   0   0  2    250 stealthy (none)  
+Iggy      88  81  79  85  15  71  87  42  21  33  5   1950 heavy we heavy we
+Ira       76  72  91  55  14  83  55   8   2  40  2      0 teaching teaching
+Maddog    91  91  92  78   8  56  66  68  18   7  1      0 lockpick lockpick
+Miguel    88  73  76  83  98  80  85  22  31  13  6      0 night op knifing 
+Perko     65  57  79  62  22  76  45  80  10  20  1      0 (none)   (none)  
+RPC65     87  51  86  92   1  66  55  15   7   5  1    100 throwing throwing
+RPC71     15   1   1   1   1   1   0   0   0   0  1      0 (none)   (none)  
+Robot     95  50  30  30   1   5  80   0   0   0  1      0 (none)   (none)  
+Shank     73  36  43  31   7  80  45  11   9  17  1     20 throwing throwing
+Terry     80  76  78  77  16  59  93  44  34  10  4      0 on roof  auto wea
+Vince     94  49  92  69  33  94  35  13   3  94  2    500 teaching ambidext
+
+
+
+Full Character Details
+A.I.M. Mercenaries (slots 0-39)
+#0: Barry Barry Unger Male body: Regular male 
+hlt 82 agi 72 dex 87 str 80 ldr 29 wis 91 
+mrk 70 mec 44 exp 92 med 20  lvl 2 
+skills: electronics lockpicking  trait: non-swimmer 
+attitude: normal base morale: 0 sexism: gentleman 
+salary: 700 weekly: 3400 bi-weekly: 5500 deposit: yes 
+appearance: TANPANTS BLUEVEST PINKSKIN BLACKHEAD 
+equipment: .38 S&W Steel Helmet Flak Jacket .38 S-load TNT 
+friends: Red     
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 19 healing: 8 repair: 7 militia: 56 
+Notes:  
+ 
+#1: Blood Keith "Blood" Hanson Male body: Regular male 
+hlt 84 agi 94 dex 87 str 82 ldr 6 wis 75 
+mrk 78 mec 23 exp 31 med 51  lvl 3 
+skills: throwing martial arts  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 850 weekly: 5500 bi-weekly: 9000 deposit: no 
+appearance: BLUEPANTS WHITEVEST BLACKSKIN BLACKHEAD 
+equipment: Glock 17 Knife Throw. Knife Flak Jacket 9mm mag 
+friends: Magic     
+enemies: Cliff     
+civilian group: (none)  learn-to-hate: Bubba 
+APs: 21 healing: 20 repair: 3 militia: 44 
+Notes:  
+ 
+#2: Lynx Rudy "Lynx-Eyed" Roberts Male body: Regular male 
+hlt 81 agi 79 dex 86 str 77 ldr 39 wis 71 
+mrk 99 mec 29 exp 50 med 34  lvl 4 
+skills: electronics night ops  trait: (none) 
+attitude: pessimist base morale: 4 sexism: somewhat 
+salary: 2850 weekly: 18500 bi-weekly: 35000 deposit: no 
+appearance: JEANPANTS JEANVEST TANSKIN BROWNHEAD 
+equipment: Mini-14 Steel Helmet Kevlar Vest 5.56mm mag 1st Aid Kit 
+friends: Ice     
+enemies: Buzz     
+civilian group: (none)  learn-to-hate:  
+APs: 20 healing: 13 repair: 4 militia: 60 
+Notes:  
+ 
+#3: Grizzly Steve "Grizzly" Bornell Male body: Big male 
+hlt 94 agi 69 dex 50 str 95 ldr 16 wis 72 
+mrk 79 mec 24 exp 37 med 8  lvl 2 
+skills: hand-to-hand heavy weaps  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 525 weekly: 3500 bi-weekly: 6000 deposit: yes 
+appearance: BEIGEPANTS REDVEST TANSKIN BROWNHEAD 
+equipment: Desert Eagle Knife Steel Helmet Flak Jacket .357 mag 
+friends: Bull Shadow    
+enemies: Dr. Q     
+civilian group: (none)  learn-to-hate:  
+APs: 18 healing: 2 repair: 2 militia: 43 
+Notes:  
+ 
+#4: Vicki Victoria Waters Female body: Regular female 
+hlt 79 agi 85 dex 72 str 72 ldr 33 wis 85 
+mrk 84 mec 94 exp 28 med 18  lvl 4 
+skills: ambidexterous throwing  trait: claustrophobic 
+attitude: normal base morale: 0 sexism: somewhat 
+salary: 2200 weekly: 14500 bi-weekly: 26000 deposit: no 
+appearance: BLACKPANTS PURPLESHIRT BLACKSKIN BLACKHEAD 
+equipment: Colt .45 Colt .45 Steel Helmet Kevlar Vest .45 mag 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate: Gasket 
+APs: 20 healing: 7 repair: 13 militia: 63 
+Notes:  
+ 
+#5: Trevor Trevor Colby Male body: Regular male 
+hlt 95 agi 77 dex 98 str 79 ldr 27 wis 97 
+mrk 81 mec 99 exp 88 med 7  lvl 2 
+skills: electronics lockpicking  trait: (none) 
+attitude: normal base morale: 0 sexism: gentleman 
+salary: 2800 weekly: 18000 bi-weekly: 32200 deposit: no 
+appearance: BLACKPANTS greyVEST PINKSKIN BLACKHEAD 
+equipment: M870 Kevlar Vest 12 Gauge TNT Remote Det. 
+friends:      
+enemies: Fidel     
+civilian group: (none)  learn-to-hate:  
+APs: 21 healing: 3 repair: 17 militia: 58 
+Notes:  
+ 
+#6: Grunty Helmut Grunther Male body: Regular male 
+hlt 82 agi 79 dex 76 str 71 ldr 21 wis 72 
+mrk 78 mec 44 exp 28 med 22  lvl 3 
+skills: night ops heavy weaps  trait: (none) 
+attitude: optimist base morale: 3 sexism: gentleman 
+salary: 550 weekly: 3600 bi-weekly: 6400 deposit: no 
+appearance: TANPANTS GREENVEST PINKSKIN BLONDHEAD 
+equipment: Glock 18 Steel Helmet Flak Jacket 9mm mag Canteen 
+friends: Ivan     
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 20 healing: 8 repair: 6 militia: 49 
+Notes:  
+ 
+#7: Ivan Ivan Dolvich Male body: Regular male 
+hlt 94 agi 90 dex 95 str 87 ldr 35 wis 83 
+mrk 92 mec 14 exp 55 med 15  lvl 4 
+skills: auto weaps heavy weaps  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 2950 weekly: 20000 bi-weekly: 38000 deposit: no 
+appearance: TANPANTS BROWNVEST PINKSKIN BROWNHEAD 
+equipment: MP53 Steel Helmet Kevlar Vest 5.56mm mag 
+friends: Igor Grunty    
+enemies:      
+civilian group: (none)  learn-to-hate: Bubba 
+APs: 22 healing: 7 repair: 2 militia: 63 
+Notes:  
+ 
+#8: Steroid Bobby "Steroid" Gontarski Male body: Big male 
+hlt 99 agi 56 dex 48 str 97 ldr 9 wis 62 
+mrk 89 mec 76 exp 13 med 22  lvl 1 
+skills: electronics lockpicking  trait: (none) 
+attitude: big shot base morale: 7 sexism: somewhat 
+salary: 950 weekly: 5000 bi-weekly: 8000 deposit: yes 
+appearance: TANPANTS BLACKSHIRT TANSKIN BROWNHEAD 
+equipment: Barracuda Flak Jacket .357 S-load Tool Kit Locksmith Kit 
+friends:      
+enemies: Ivan Igor    
+civilian group: (none)  learn-to-hate:  
+APs: 17 healing: 5 repair: 6 militia: 32 
+Notes:  
+ 
+#9: Igor Igor Dolvich Male body: Regular male 
+hlt 91 agi 89 dex 75 str 82 ldr 4 wis 84 
+mrk 77 mec 36 exp 19 med 17  lvl 2 
+skills: stealthy (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 500 weekly: 3200 bi-weekly: 5500 deposit: no 
+appearance: GREENPANTS BROWNVEST PINKSKIN BROWNHEAD 
+equipment: Barracuda Knife Steel Helmet .357 S-load 
+friends: Ivan Grunty    
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 20 healing: 6 repair: 4 militia: 43 
+Notes:  
+ 
+#10: Shadow Kyle "Shadow" Simmons Male body: Regular male 
+hlt 95 agi 96 dex 83 str 88 ldr 35 wis 77 
+mrk 92 mec 12 exp 22 med 30  lvl 5 
+skills: stealthy camouflaged  trait: (none) 
+attitude: loner base morale: 2 sexism: not 
+salary: 3100 weekly: 20500 bi-weekly: 39000 deposit: no 
+appearance: GREENPANTS GREENVEST PINKSKIN BLACKHEAD 
+equipment: MP53 Steel Helmet Kevlar Vest 5.56mm mag 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 22 healing: 13 repair: 2 militia: 65 
+Notes:  
+ 
+#11: Red Ernie "Red" Spragg Male body: Regular male 
+hlt 68 agi 66 dex 81 str 69 ldr 21 wis 79 
+mrk 78 mec 33 exp 99 med 5  lvl 4 
+skills: teaching electronics  trait: (none) 
+attitude: pessimist base morale: 4 sexism: very 
+salary: 900 weekly: 5900 bi-weekly: 10000 deposit: no 
+appearance: JEANPANTS BROWNVEST PINKSKIN REDHEAD 
+equipment: Glock 17 Steel Helmet Flak Jacket 9mm mag Detonator 
+friends:      
+enemies: Buns     
+civilian group: (none)  learn-to-hate:  
+APs: 18 healing: 2 repair: 5 militia: 73 
+Notes:  
+ 
+#12: Reaper Carl "Reaper" Sheppards Male body: Regular male 
+hlt 81 agi 92 dex 92 str 79 ldr 37 wis 81 
+mrk 97 mec 37 exp 47 med 2  lvl 6 
+skills: stealthy on roof  trait: (none) 
+attitude: loner base morale: 2 sexism: not 
+salary: 4000 weekly: 25000 bi-weekly: 48000 deposit: no 
+appearance: JEANPANTS greyVEST TANSKIN BROWNHEAD 
+equipment: Commando Steel Helmet Kevlar Vest 5.56mm mag Locksmith Kit 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate: Numb 
+APs: 22 healing: 1 repair: 7 militia: 71 
+Notes:  
+ 
+#13: Fidel Fidel Dahan  Male body: Regular male 
+hlt 88 agi 83 dex 64 str 83 ldr 1 wis 71 
+mrk 85 mec 6 exp 97 med 3  lvl 3 
+skills: hand-to-hand (none)  trait: psycho 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 2000 weekly: 9500 bi-weekly: 16000 deposit: yes 
+appearance: TANPANTS BROWNVEST DARKSKIN BLACKHEAD 
+equipment: Beretta 93R Steel Helmet Kevlar Vest 9mm mag C1 
+friends: Razor     
+enemies:      
+civilian group: (none)  learn-to-hate: Flo 
+APs: 20 healing: 1 repair: 0 militia: 41 
+Notes:  
+ 
+#14: Fox Cynthia "Fox" Guzzman Female body: Regular female 
+hlt 77 agi 85 dex 100 str 55 ldr 21 wis 76 
+mrk 69 mec 15 exp 8 med 70  lvl 2 
+skills: teaching ambidexterous  trait: fear of insects 
+attitude: pessimist base morale: 4 sexism: not 
+salary: 625 weekly: 4000 bi-weekly: 7000 deposit: no 
+appearance: JEANPANTS REDVEST TANSKIN BROWNHEAD 
+equipment: Glock 17 Steel Helmet Flak Jacket 9mm mag Med Kit 
+friends: Wolf     
+enemies: Steroid     
+civilian group: (none)  learn-to-hate: Haywire 
+APs: 21 healing: 28 repair: 2 militia: 61 
+Notes:  
+ 
+#15: Sidney Sidney Nettleson Male body: Regular male 
+hlt 80 agi 70 dex 91 str 76 ldr 27 wis 78 
+mrk 92 mec 2 exp 15 med 44  lvl 5 
+skills: throwing throwing  trait: (none) 
+attitude: optimist base morale: 3 sexism: somewhat 
+salary: 2000 weekly: 12500 bi-weekly: 22000 deposit: no 
+appearance: BLUEPANTS WHITEVEST TANSKIN BROWNHEAD 
+equipment: MP5K Kevlar Helmet Kevlar Vest 9mm SMG mag Mini Grenade 
+friends: Scope     
+enemies:      
+civilian group: (none)  learn-to-hate: Haywire 
+APs: 20 healing: 19 repair: 0 militia: 62 
+Notes:  
+ 
+#16: Gus Gus Tarballs Male body: Big male 
+hlt 75 agi 65 dex 84 str 82 ldr 83 wis 94 
+mrk 97 mec 80 exp 76 med 68  lvl 8 
+skills: heavy weaps heavy weaps  trait: (none) 
+attitude: loner base morale: 2 sexism: not 
+salary: 6000 weekly: 37000 bi-weekly: 70000 deposit: no 
+appearance: BLACKPANTS GREENVEST DARKSKIN WHITEHEAD 
+equipment: G41 Kevlar Helmet Kevlar Vest Kevlar Pants 5.56mm mag 
+friends: Len     
+enemies:      
+civilian group: (none)  learn-to-hate: Flo 
+APs: 20 healing: 35 repair: 15 militia: 103 
+Notes:  
+ 
+#17: Buns Monica "Buns" Sondergaard Female body: Regular female 
+hlt 79 agi 78 dex 87 str 59 ldr 24 wis 93 
+mrk 86 mec 8 exp 4 med 48  lvl 2 
+skills: teaching teaching  trait: fear of insects 
+attitude: big shot base morale: 7 sexism: somewhat 
+salary: 725 weekly: 4700 bi-weekly: 8500 deposit: no 
+appearance: TANPANTS WHITEVEST PINKSKIN BROWNHEAD 
+equipment: Beretta 92F Flak Jacket 9mm mag 1st Aid Kit Sun Goggles 
+friends:      
+enemies: Fox Reaper    
+civilian group: (none)  learn-to-hate: Gumpy 
+APs: 20 healing: 20 repair: 1 militia: 88 
+Notes:  
+ 
+#18: Ice Ice Williams Male body: Regular male 
+hlt 90 agi 88 dex 87 str 84 ldr 23 wis 78 
+mrk 86 mec 42 exp 3 med 7  lvl 3 
+skills: teaching auto weaps  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 1500 weekly: 9000 bi-weekly: 15000 deposit: no 
+appearance: JEANPANTS JEANVEST DARKSKIN BROWNHEAD 
+equipment: Thompson Steel Helmet Kevlar Vest .45 SMG mag 
+friends: Magic Grizzly    
+enemies:      
+civilian group: (none)  learn-to-hate: Bubba 
+APs: 21 healing: 3 repair: 7 militia: 68 
+Notes:  
+ 
+#19: Spider Dr. Donna "Spider" Houston Female body: Regular female 
+hlt 81 agi 56 dex 76 str 68 ldr 16 wis 90 
+mrk 70 mec 0 exp 0 med 94  lvl 1 
+skills: night ops stealthy  trait: fear of insects 
+attitude: friendly base morale: 1 sexism: somewhat 
+salary: 800 weekly: 5100 bi-weekly: 8500 deposit: no 
+appearance: BLUEPANTS WHITEVEST PINKSKIN BROWNHEAD 
+equipment: .38 S&W Steel Helmet .38 S-load Med Kit Canteen 
+friends: Vicki Static    
+enemies:      
+civilian group: (none)  learn-to-hate: Buns 
+APs: 17 healing: 34 repair: 0 militia: 46 
+Notes:  
+ 
+#20: Cliff Dr. Clifford Highball Male body: Regular male 
+hlt 82 agi 60 dex 53 str 64 ldr 33 wis 87 
+mrk 84 mec 4 exp 31 med 84  lvl 4 
+skills: (none) (none)  trait: (none) 
+attitude: arrogant base morale: 6 sexism: gentleman 
+salary: 1600 weekly: 10000 bi-weekly: 16000 deposit: no 
+appearance: BLACKPANTS WHITEVEST PINKSKIN BROWNHEAD 
+equipment: Thompson Flak Jacket .45 SMG mag Med Kit 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 17 healing: 29 repair: 0 militia: 64 
+Notes:  
+ 
+#21: Bull John "Bull" Peters Male body: Big male 
+hlt 96 agi 59 dex 44 str 98 ldr 23 wis 64 
+mrk 72 mec 25 exp 17 med 10  lvl 2 
+skills: hand-to-hand hand-to-hand  trait: (none) 
+attitude: aggressive base morale: 5 sexism: not 
+salary: 400 weekly: 2700 bi-weekly: 4500 deposit: yes 
+appearance: TANPANTS BROWNVEST PINKSKIN redbrown 
+equipment: Barracuda Dusters Flak Jacket .357 S-load 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate: Biff 
+APs: 17 healing: 2 repair: 2 militia: 43 
+Notes:  
+ 
+#22: Hitman Frank "Hitman" Hennessy Male body: Regular male 
+hlt 75 agi 77 dex 40 str 69 ldr 52 wis 74 
+mrk 88 mec 11 exp 39 med 3  lvl 4 
+skills: throwing teaching  trait: non-swimmer 
+attitude: friendly base morale: 1 sexism: not 
+salary: 1000 weekly: 6000 bi-weekly: 11000 deposit: no 
+appearance: BLACKPANTS BROWNVEST TANSKIN WHITEHEAD 
+equipment: Colt .45 Throw. Knife Throw. Knife Steel Helmet Flak Jacket 
+friends: Grunty     
+enemies:      
+civilian group: (none)  learn-to-hate: Raider 
+APs: 18 healing: 1 repair: 0 militia: 86 
+Notes:  
+ 
+#23: Buzz Louisa "Buzz" Garneau Female body: Regular female 
+hlt 71 agi 84 dex 47 str 68 ldr 13 wis 90 
+mrk 96 mec 5 exp 19 med 0  lvl 4 
+skills: heavy weaps auto weaps  trait: psycho 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 2200 weekly: 12000 bi-weekly: 18000 deposit: yes 
+appearance: JEANPANTS BLACKSHIRT PINKSKIN BLACKHEAD 
+equipment: MP5K Flak Jacket 9mm SMG mag 
+friends:      
+enemies: Lynx     
+civilian group: (none)  learn-to-hate: Lynx 
+APs: 18 healing: 0 repair: 0 militia: 57 
+Notes:  
+ 
+#24: Raider Ron "Raider" Higgens  Male body: Regular male 
+hlt 80 agi 71 dex 78 str 80 ldr 87 wis 76 
+mrk 88 mec 12 exp 20 med 11  lvl 4 
+skills: teaching teaching  trait: (none) 
+attitude: big shot base morale: 7 sexism: not 
+salary: 2000 weekly: 12000 bi-weekly: 20000 deposit: no 
+appearance: BLUEPANTS BLUEVEST PINKSKIN BROWNHEAD 
+equipment: Colt .45 Steel Helmet Flak Jacket .45 mag .45 mag AP 
+friends: Raven     
+enemies:      
+civilian group: (none)  learn-to-hate: Hitman 
+APs: 19 healing: 4 repair: 1 militia: 130 
+Notes:  
+ 
+#25: Raven Charlene "Raven" Higgens Female body: Regular female 
+hlt 85 agi 76 dex 92 str 68 ldr 19 wis 77 
+mrk 94 mec 5 exp 5 med 17  lvl 2 
+skills: night ops auto weaps  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 1800 weekly: 11000 bi-weekly: 19000 deposit: no 
+appearance: BLUEPANTS BLUEVEST PINKSKIN BLONDHEAD 
+equipment: Glock 18 Knife Steel Helmet Flak Jacket 9mm mag 
+friends: Raider     
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 20 healing: 7 repair: 0 militia: 46 
+Notes:  
+ 
+#26: Static Kirk "Static" Stevenson  Male body: Regular male 
+hlt 79 agi 66 dex 95 str 59 ldr 15 wis 60 
+mrk 86 mec 99 exp 28 med 17  lvl 4 
+skills: electronics night ops  trait: fear of insects 
+attitude: friendly base morale: 1 sexism: gentleman 
+salary: 2500 weekly: 15000 bi-weekly: 25000 deposit: no 
+appearance: JEANPANTS PURPLESHIRT PINKSKIN BROWNHEAD 
+equipment: SPAS-15 Steel Helmet Kevlar Vest 12 Gauge Tool Kit 
+friends: LarryD Spider    
+enemies: Larry Stephen    
+civilian group: (none)  learn-to-hate: Razor 
+APs: 20 healing: 7 repair: 18 militia: 46 
+Notes:  
+ 
+#27: Len Corp. Len Anderson Male body: Regular male 
+hlt 89 agi 80 dex 88 str 77 ldr 61 wis 83 
+mrk 83 mec 54 exp 47 med 35  lvl 7 
+skills: auto weaps teaching  trait: (none) 
+attitude: normal base morale: 0 sexism: gentleman 
+salary: 2400 weekly: 15000 bi-weekly: 28000 deposit: no 
+appearance: GREENPANTS BLUEVEST BLACKSKIN WHITEHEAD 
+equipment: Commando Kevlar Helmet Kevlar Vest 5.56mm mag 1st Aid Kit 
+friends: Vicki     
+enemies:      
+civilian group: (none)  learn-to-hate: Numb 
+APs: 22 healing: 17 repair: 10 militia: 111 
+Notes:  
+ 
+#28: Danny Dr. Daniel Quinten Male body: Regular male 
+hlt 99 agi 99 dex 79 str 73 ldr 10 wis 91 
+mrk 61 mec 12 exp 0 med 88  lvl 3 
+skills: ambidexterous (none)  trait: (none) 
+attitude: loner base morale: 2 sexism: somewhat 
+salary: 1300 weekly: 8000 bi-weekly: 14000 deposit: no 
+appearance: GREENPANTS GREENVEST TANSKIN BROWNHEAD 
+equipment: Glock 17 Glock 17 Steel Helmet Kevlar Vest 9mm mag 
+friends:      
+enemies: Steroid Bubba    
+civilian group: (none)  learn-to-hate: Biff 
+APs: 22 healing: 36 repair: 1 militia: 52 
+Notes:  
+ 
+#29: Magic Earl "Magic" Walker Male body: Big male 
+hlt 95 agi 99 dex 98 str 92 ldr 16 wis 80 
+mrk 94 mec 91 exp 27 med 24  lvl 5 
+skills: lockpicking stealthy  trait: (none) 
+attitude: arrogant base morale: 6 sexism: not 
+salary: 5500 weekly: 35000 bi-weekly: 65000 deposit: no 
+appearance: JEANPANTS JEANVEST DARKSKIN BROWNHEAD 
+equipment: MAC-10 Kevlar Helmet Kevlar Vest Kevlar Pants Silencer 
+friends: Blood Ice    
+enemies: Buns     
+civilian group: (none)  learn-to-hate: Bubba 
+APs: 23 healing: 11 repair: 18 militia: 58 
+Notes:  
+ 
+#30: Stephen Stephen Rothman Male body: Regular male 
+hlt 97 agi 71 dex 78 str 80 ldr 59 wis 94 
+mrk 82 mec 15 exp 66 med 15  lvl 5 
+skills: night ops teaching  trait: (none) 
+attitude: big shot base morale: 7 sexism: gentleman 
+salary: 1500 weekly: 10000 bi-weekly: 17000 deposit: no 
+appearance: GREENPANTS greyVEST PINKSKIN BROWNHEAD 
+equipment: MP5K Steel Helmet Flak Jacket 9mm SMG mag 
+friends:      
+enemies: Static LarryD    
+civilian group: (none)  learn-to-hate: Nails 
+APs: 20 healing: 7 repair: 2 militia: 106 
+Notes:  
+ 
+#31: Scully Robert James Sullivan Male body: Big male 
+hlt 90 agi 90 dex 96 str 85 ldr 70 wis 93 
+mrk 92 mec 61 exp 66 med 36  lvl 5 
+skills: knifing knifing  trait: (none) 
+attitude: friendly base morale: 1 sexism: somewhat 
+salary: 4800 weekly: 30000 bi-weekly: 53000 deposit: no 
+appearance: JEANPANTS BLUEVEST PINKSKIN BLONDHEAD 
+equipment: AKSU-74 Knife Kevlar Helmet Kevlar Vest Kevlar Pants 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 22 healing: 18 repair: 12 militia: 85 
+Notes:  
+ 
+#32: Malice J.P. "La Malice" Viau Male body: Regular male 
+hlt 83 agi 81 dex 97 str 89 ldr 13 wis 55 
+mrk 83 mec 14 exp 16 med 12  lvl 3 
+skills: knifing hand-to-hand  trait: (none) 
+attitude: aggressive base morale: 5 sexism: somewhat 
+salary: 1200 weekly: 6000 bi-weekly: 10000 deposit: yes 
+appearance: BEIGEPANTS GREENVEST PINKSKIN BLACKHEAD 
+equipment: Beretta 93R Knife Flak Jacket 9mm mag 
+friends: Fox Spider    
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 21 healing: 4 repair: 2 militia: 39 
+Notes:  
+ 
+#33: Dr. Q Dr Q. Huaong Male body: Regular male 
+hlt 88 agi 92 dex 81 str 73 ldr 26 wis 91 
+mrk 60 mec 19 exp 20 med 87  lvl 3 
+skills: martial arts night ops  trait: (none) 
+attitude: pessimist base morale: 4 sexism: not 
+salary: 1500 weekly: 7500 bi-weekly: 13000 deposit: yes 
+appearance: GREENPANTS BLACKSHIRT TANSKIN BLACKHEAD 
+equipment: Beretta 92F Throw. Knife Steel Helmet Flak Jacket 9mm mag 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 21 healing: 36 repair: 2 militia: 59 
+Notes:  
+ 
+#34: Nails Edgar "Nails" Smorth Male body: Big male 
+hlt 72 agi 60 dex 88 str 90 ldr 24 wis 79 
+mrk 84 mec 63 exp 78 med 11  lvl 4 
+skills: lockpicking (none)  trait: claustrophobic 
+attitude: normal base morale: 0 sexism: somewhat 
+salary: 1800 weekly: 10000 bi-weekly: 16000 deposit: yes 
+appearance: JEANPANTS BLACKSHIRT TANSKIN BROWNHEAD 
+equipment: M870 Steel Helmet Leather Jacket 12 Gauge 12 Gauge BS 
+friends: Fox     
+enemies: Biff     
+civilian group: (none)  learn-to-hate:  
+APs: 19 healing: 5 repair: 11 militia: 57 
+Notes:  
+ 
+#35: Thor Thor Kaufman Male body: Regular male 
+hlt 96 agi 83 dex 84 str 89 ldr 61 wis 97 
+mrk 74 mec 35 exp 11 med 70  lvl 3 
+skills: hand-to-hand stealthy  trait: (none) 
+attitude: friendly base morale: 1 sexism: gentleman 
+salary: 1750 weekly: 10000 bi-weekly: 15000 deposit: yes 
+appearance: BEIGEPANTS GREENVEST TANSKIN dirtblnde 
+equipment: Desert Eagle Steel Helmet Flak Jacket Silencer .357 mag 
+friends: Ice Static    
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 21 healing: 30 repair: 5 militia: 75 
+Notes:  
+ 
+#36: Scope Sheila "Scope" Sterling Female body: Regular female 
+hlt 87 agi 89 dex 76 str 64 ldr 39 wis 81 
+mrk 99 mec 4 exp 21 med 17  lvl 5 
+skills: night ops teaching  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 2900 weekly: 19000 bi-weekly: 35000 deposit: no 
+appearance: TANPANTS BLUEVEST PINKSKIN BLONDHEAD 
+equipment: MP5K Kevlar Helmet Kevlar Vest 9mm SMG mag 
+friends: Sidney     
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 21 healing: 7 repair: 0 militia: 88 
+Notes:  
+ 
+#37: Wolf Peter "Wolf" Sanderson Male body: Big male 
+hlt 90 agi 83 dex 86 str 85 ldr 22 wis 76 
+mrk 79 mec 65 exp 40 med 48  lvl 3 
+skills: teaching night ops  trait: (none) 
+attitude: pessimist base morale: 4 sexism: not 
+salary: 1400 weekly: 8000 bi-weekly: 14000 deposit: no 
+appearance: BEIGEPANTS BROWNVEST PINKSKIN BROWNHEAD 
+equipment: SPAS-15 Steel Helmet Kevlar Vest 12 Gauge BS 12 Gauge 
+friends: Fox Lynx    
+enemies:      
+civilian group: (none)  learn-to-hate: Numb 
+APs: 21 healing: 19 repair: 10 militia: 67 
+Notes:  
+ 
+#38: MD Dr. Michael Dawson Male body: Regular male 
+hlt 72 agi 62 dex 78 str 76 ldr 4 wis 94 
+mrk 66 mec 7 exp 0 med 80  lvl 1 
+skills: knifing teaching  trait: heat intolerant 
+attitude: optimist base morale: 3 sexism: not 
+salary: 500 weekly: 3000 bi-weekly: 5000 deposit: no 
+appearance: BLUEPANTS WHITEVEST PINKSKIN BROWNHEAD 
+equipment: .38 S&W Steel Helmet .38 S-load Med Kit 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 17 healing: 30 repair: 0 militia: 56 
+Notes:  
+ 
+#39: Meltdown Norma "Meltdown" Jessop Female body: Regular female 
+hlt 78 agi 74 dex 84 str 76 ldr 24 wis 82 
+mrk 83 mec 22 exp 40 med 3  lvl 3 
+skills: heavy weaps ambidexterous  trait: (none) 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 800 weekly: 4900 bi-weekly: 9000 deposit: no 
+appearance: BLACKPANTS greyVEST PINKSKIN BROWNHEAD 
+equipment: Beretta 93R Flak Jacket 9mm mag 
+friends:      
+enemies: Biff     
+civilian group: (none)  learn-to-hate: Flo 
+APs: 19 healing: 1 repair: 3 militia: 54 
+Notes:  
+ 
+
+M.E.R.C. Mercenaries (slots 40-50)
+#40: Biff Biff Apscott Male body: Regular male 
+hlt 73 agi 74 dex 71 str 41 ldr 13 wis 58 
+mrk 57 mec 0 exp 4 med 24  lvl 2 
+skills: teaching (none)  trait: nervous 
+attitude: coward base morale: 9 sexism: not 
+salary: 200 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN REDHEAD 
+equipment: .38 S&W Steel Helmet Flak Jacket .38 S-load 
+friends: Larry     
+enemies: LarryD     
+civilian group: (none)  learn-to-hate:  
+APs: 18 healing: 7 repair: 0 militia: 47 
+Notes:  
+ 
+#41: Haywire Frankie "Haywire" Gordon Male body: Regular male 
+hlt 65 agi 59 dex 76 str 71 ldr 1 wis 58 
+mrk 48 mec 8 exp 31 med 2  lvl 1 
+skills: auto weaps knifing  trait: psycho 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 150 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS greyVEST TANSKIN BROWNHEAD 
+equipment: .38 S&W .38 S-load 
+friends: Razor     
+enemies: Biff     
+civilian group: (none)  learn-to-hate:  
+APs: 17 healing: 1 repair: 1 militia: 28 
+Notes:  
+ 
+#42: Gasket Doug "Gasket" Milton Male body: Regular male 
+hlt 72 agi 61 dex 89 str 68 ldr 3 wis 49 
+mrk 44 mec 82 exp 8 med 0  lvl 1 
+skills: lockpicking (none)  trait: forgetful 
+attitude: asshole base morale: 8 sexism: somewhat 
+salary: 200 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS greyVEST PINKSKIN BROWNHEAD 
+equipment: Colt .45 Steel Helmet Flak Jacket .45 mag 
+friends: Vicki     
+enemies: Ivan     
+civilian group: (none)  learn-to-hate: Igor 
+APs: 18 healing: 0 repair: 12 militia: 25 
+Notes:  
+ 
+#43: Razor Bill "Razor" Lamont Male body: Regular male 
+hlt 73 agi 88 dex 91 str 86 ldr 4 wis 53 
+mrk 50 mec 8 exp 11 med 12  lvl 2 
+skills: knifing knifing  trait: psycho 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 150 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS BLACKSHIRT TANSKIN BROWNHEAD 
+equipment: Colt .45 Flak Jacket .45 mag 
+friends: Haywire     
+enemies: Flo     
+civilian group: (none)  learn-to-hate: Biff 
+APs: 20 healing: 4 repair: 1 militia: 31 
+Notes:  
+ 
+#44: Flo Florence Gabriel Female body: Regular female 
+hlt 58 agi 37 dex 64 str 45 ldr 1 wis 82 
+mrk 38 mec 7 exp 2 med 19  lvl 1 
+skills: teaching (none)  trait: nervous 
+attitude: coward base morale: 9 sexism: not 
+salary: 100 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS YELLOWVEST PINKSKIN BROWNHEAD 
+equipment: .38 S&W .38 S-load 
+friends: Biff     
+enemies:      
+civilian group: (none)  learn-to-hate: Meltdown 
+APs: 14 healing: 6 repair: 0 militia: 48 
+Notes:  
+ 
+#45: Gumpy Tim "Gumpy" Hillman Male body: Regular male 
+hlt 67 agi 45 dex 67 str 70 ldr 11 wis 94 
+mrk 44 mec 0 exp 56 med 9  lvl 1 
+skills: electronics (none)  trait: heat intolerant 
+attitude: pessimist base morale: 4 sexism: not 
+salary: 150 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS GYELLOWSHIRT TANSKIN BROWNHEAD 
+equipment: .38 S&W Flak Jacket .38 S-load 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 15 healing: 3 repair: 0 militia: 46 
+Notes:  
+ 
+#46: Larry Larry Roachburn Male body: Regular male 
+hlt 69 agi 87 dex 79 str 67 ldr 18 wis 70 
+mrk 70 mec 14 exp 92 med 70  lvl 3 
+skills: stealthy lockpicking  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 700 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS WHITEVEST PINKSKIN BROWNHEAD 
+equipment: Colt .45 Flak Jacket .45 mag 
+friends: Biff     
+enemies: Static     
+civilian group: (none)  learn-to-hate: Steroid 
+APs: 20 healing: 25 repair: 2 militia: 47 
+Notes: Larry when sober 
+ 
+#47: LarryD Larry Roachburn Male body: Regular male 
+hlt 69 agi 72 dex 54 str 35 ldr 4 wis 58 
+mrk 50 mec 7 exp 82 med 49  lvl 1 
+skills: (none) (none)  trait: forgetful 
+attitude: loner base morale: 2 sexism: very 
+salary: 700 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS WHITEVEST PINKSKIN BROWNHEAD 
+equipment: (none) 
+friends: Static     
+enemies: Biff     
+civilian group: (none)  learn-to-hate: Flo 
+APs: 17 healing: 12 repair: 0 militia: 29 
+Notes: Larry when drunk 
+ 
+#48: Cougar Jim "Cougar" Wallace Male body: Regular male 
+hlt 88 agi 83 dex 79 str 87 ldr 31 wis 75 
+mrk 93 mec 58 exp 45 med 33  lvl 5 
+skills: auto weaps stealthy  trait: (none) 
+attitude: asshole base morale: 8 sexism: not 
+salary: 2000 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN dirtblnde 
+equipment: Thompson Steel Helmet Flak Jacket .45 SMG mag 
+friends: Wolf Len    
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 21 healing: 13 repair: 9 militia: 62 
+Notes:  
+ 
+#49: Numb Tim "Numb" Sutton Male body: Regular male 
+hlt 84 agi 72 dex 61 str 78 ldr 10 wis 70 
+mrk 88 mec 9 exp 13 med 30  lvl 3 
+skills: night ops martial arts  trait: (none) 
+attitude: loner base morale: 2 sexism: not 
+salary: 900 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS GYELLOWSHIRT PINKSKIN REDHEAD 
+equipment: MAC-10 Flak Jacket .45 SMG mag 
+friends:      
+enemies: Sidney Vicki    
+civilian group: (none)  learn-to-hate: Scope 
+APs: 18 healing: 9 repair: 1 militia: 44 
+Notes:  
+ 
+#50: Bubba Thorton "Bubba" Jones Male body: Big male 
+hlt 86 agi 54 dex 68 str 98 ldr 5 wis 29 
+mrk 77 mec 59 exp 61 med 0  lvl 4 
+skills: hand-to-hand (none)  trait: (none) 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 600 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS JEANVEST TANSKIN BLACKHEAD 
+equipment: Desert Eagle Flak Jacket .357 mag 
+friends: Bull     
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 18 healing: 0 repair: 8 militia: 30 
+Notes:  
+ 
+
+Recruitable Player Characters (slots 51-74)
+#51: PGmale1  Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#52: PGmale2   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#53: PGmale3  Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#54: PGLady1  Male body: Regular female 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#55: PGLady2  Male body: Regular female 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#56: PGLady3  Male body: Regular female 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#57: Miguel Miguel Cordona Male body: Regular male 
+hlt 88 agi 73 dex 76 str 83 ldr 98 wis 80 
+mrk 85 mec 22 exp 31 med 13  lvl 6 
+skills: night ops knifing  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS GREENVEST TANSKIN BLACKHEAD 
+equipment: AKM Knife Steel Helmet Flak Jacket 7.62mm WP 30 
+friends: Carlos Ira    
+enemies: Iggy     
+civilian group: rebels  learn-to-hate:  
+APs: 20 healing: 5 repair: 3 militia: 105 
+Notes: Rebel leader A10 
+ 
+#58: Carlos Carlos Dasouza Male body: Regular male 
+hlt 79 agi 91 dex 61 str 68 ldr 38 wis 71 
+mrk 67 mec 34 exp 20 med 11  lvl 4 
+skills: throwing stealthy  trait: (none) 
+attitude: pessimist base morale: 4 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS GREENVEST TANSKIN BLACKHEAD 
+equipment: Mini-14 Steel Helmet Flak Jacket 5.56mm mag 
+friends: Miguel Dimitri    
+enemies: Iggy     
+civilian group: rebels  learn-to-hate:  
+APs: 20 healing: 4 repair: 4 militia: 66 
+Notes: Rebel A10 
+ 
+#59: Ira Ira Smythe Female body: Regular female 
+hlt 76 agi 72 dex 91 str 55 ldr 14 wis 83 
+mrk 55 mec 8 exp 2 med 40  lvl 2 
+skills: teaching teaching  trait: non-swimmer 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS GREENVEST TANSKIN BROWNHEAD 
+equipment: .38 S&W Steel Helmet .38 S-load Med Kit 
+friends: Dimitri Miguel    
+enemies:      
+civilian group: rebels  learn-to-hate: Malice 
+APs: 19 healing: 16 repair: 1 militia: 80 
+Notes: Rebel A10 
+ 
+#60: Dimitri Dimitri Guzzo Male body: Regular male 
+hlt 75 agi 73 dex 51 str 71 ldr 21 wis 56 
+mrk 77 mec 71 exp 12 med 17  lvl 1 
+skills: throwing throwing  trait: forgetful 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS GREENVEST TANSKIN BROWNHEAD 
+equipment: Desert Eagle Throw. Knife Steel Helmet Flak Jacket .357 mag 
+friends: Miguel Carlos    
+enemies:      
+civilian group: rebels  learn-to-hate: Stephen 
+APs: 17 healing: 4 repair: 6 militia: 38 
+Notes: Rebel A10 
+ 
+#61: Devin Devin Connell Male body: Regular male 
+hlt 73 agi 61 dex 88 str 71 ldr 11 wis 72 
+mrk 67 mec 34 exp 96 med 2  lvl 3 
+skills: electronics knifing  trait: (none) 
+attitude: loner base morale: 2 sexism: somewhat 
+salary: 800 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS JEANVEST PINKSKIN BROWNHEAD 
+equipment: Commando Steel Helmet Flak Jacket 5.56mm mag 
+friends:      
+enemies:      
+civilian group: civ #16  learn-to-hate: Buns 
+APs: 18 healing: 1 repair: 5 militia: 50 
+Notes: Sells explosives G9, D13, C5, H2, C6 
+ 
+#62: Robot Madlab's Robot Male body: Robot 
+hlt 95 agi 50 dex 30 str 30 ldr 1 wis 5 
+mrk 80 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BLONDHEAD 
+equipment: Spec-18 Helmet Spec-18 Vest Kevlar-18 Pants 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 15 healing: 0 repair: 0 militia: 7 
+Notes: Remote-controlled 
+ 
+#63: Hamous Hamous Male body: Regular male 
+hlt 68 agi 68 dex 66 str 69 ldr 5 wis 35 
+mrk 78 mec 19 exp 0 med 0  lvl 2 
+skills: stealthy (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 250 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS WHITEVEST DARKSKIN BLACKHEAD 
+equipment: .38 S&W .38 S-load 
+friends:      
+enemies:      
+civilian group: civ #17  learn-to-hate:  
+APs: 17 healing: 0 repair: 2 militia: 26 
+Notes: Drives ice cream truck G6, F12, D7, D3, D9 
+ 
+#64: Terry Slay Male body: Crippled civilian 
+hlt 80 agi 76 dex 78 str 77 ldr 16 wis 59 
+mrk 93 mec 44 exp 34 med 10  lvl 4 
+skills: on roof auto weaps  trait: non-swimmer 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS WHITEVEST PINKSKIN BROWNHEAD 
+equipment: M-14 Steel Helmet Kevlar Vest 7.62mm NATO 20 
+friends:      
+enemies:      
+civilian group: civ #18  learn-to-hate: Flo 
+APs: 20 healing: 3 repair: 6 militia: 51 
+Notes: Terrorist 
+ 
+#65: RPC65 Eskimo - Removed Male body: Regular male 
+hlt 87 agi 51 dex 86 str 92 ldr 1 wis 66 
+mrk 55 mec 15 exp 7 med 5  lvl 1 
+skills: throwing throwing  trait: heat intolerant 
+attitude: normal base morale: 0 sexism: not 
+salary: 100 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 18 healing: 2 repair: 2 militia: 34 
+Notes:  
+ 
+#66: Dynamo Greg "Dynamo" Duncan Male body: Regular male 
+hlt 33/76 agi 57 dex 67 str 55 ldr 8 wis 78 
+mrk 68 mec 67 exp 9 med 21  lvl 1 
+skills: lockpicking lockpicking  trait: psycho 
+attitude: aggressive base morale: 5 sexism: not 
+salary: 50 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+friends: Shank     
+enemies:      
+civilian group: civ #19  learn-to-hate: Bubba 
+APs: 17 healing: 7 repair: 7 militia: 42 
+Notes: Matt's brother J9 
+ 
+#67: Shank Breeham "Shank" Druz Male body: Regular male 
+hlt 46/73 agi 36 dex 43 str 31 ldr 7 wis 80 
+mrk 45 mec 11 exp 9 med 17  lvl 1 
+skills: throwing throwing  trait: non-swimmer 
+attitude: optimist base morale: 3 sexism: not 
+salary: 20 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+friends: Dynamo     
+enemies:      
+civilian group: civ #19  learn-to-hate:  
+APs: 14 healing: 5 repair: 0 militia: 43 
+Notes: Return to Estoni J9 
+ 
+#68: Iggy Igmus "Iggy" Palkov Male body: Regular male 
+hlt 88 agi 81 dex 79 str 85 ldr 15 wis 71 
+mrk 87 mec 42 exp 21 med 33  lvl 5 
+skills: heavy weaps heavy weaps  trait: (none) 
+attitude: normal base morale: 0 sexism: somewhat 
+salary: 1950 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST PINKSKIN dirtblnde 
+equipment: Rocket Rifle Kevlar Helmet Kevlar Vest Minirockets, HE Minirockets, AP 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate: Fidel 
+APs: 21 healing: 13 repair: 6 militia: 60 
+Notes: Shows up when 70% done C5 
+ 
+#69: Vince Dr. Vincent Beaumont Male body: Regular male 
+hlt 94 agi 49 dex 92 str 69 ldr 33 wis 94 
+mrk 35 mec 13 exp 3 med 94  lvl 2 
+skills: teaching ambidexterous  trait: claustrophobic 
+attitude: normal base morale: 0 sexism: not 
+salary: 500 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GREENVEST PINKSKIN BROWNHEAD 
+equipment: Med Kit 1st Aid Kit 
+friends:      
+enemies:      
+civilian group: doctors  learn-to-hate:  
+APs: 18 healing: 40 repair: 2 militia: 82 
+Notes: Hospital doctor F8 
+ 
+#70: Conrad Lt. Conrad Gillitt Male body: Regular male 
+hlt 76 agi 69 dex 84 str 81 ldr 51 wis 88 
+mrk 95 mec 22 exp 68 med 49  lvl 5 
+skills: teaching auto weaps  trait: non-swimmer 
+attitude: big shot base morale: 7 sexism: somewhat 
+salary: 5500 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST TANSKIN BLACKHEAD 
+equipment: AK-74 Kevlar Vest 5.45mm mag 1st Aid Kit 
+friends: Iggy     
+enemies:      
+civilian group: (none)  learn-to-hate: LarryD 
+APs: 19 healing: 22 repair: 3 militia: 106 
+Notes: Soldier H13 
+ 
+#71: RPC71  Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#72: Maddog Kevin "Maddog" Cameron Male body: Regular male 
+hlt 91 agi 91 dex 92 str 78 ldr 8 wis 56 
+mrk 66 mec 68 exp 18 med 7  lvl 1 
+skills: lockpicking lockpicking  trait: psycho 
+attitude: aggressive base morale: 5 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS greyVEST PINKSKIN redbrown 
+equipment: CAWS Tool Kit CAWS Buckshot 
+friends:      
+enemies:      
+civilian group: junkyard  learn-to-hate:  
+APs: 21 healing: 2 repair: 10 militia: 33 
+Notes: Estoni I6 
+ 
+#73: Darrel Darrel Jr. Male body: Regular male 
+hlt 85 agi 70 dex 70 str 78 ldr 3 wis 12 
+mrk 91 mec 0 exp 0 med 0  lvl 2 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS REDVEST TANSKIN BLACKHEAD 
+equipment: Mini-14 Kevlar Vest 5.56mm mag HP 
+friends:      
+enemies:      
+civilian group: hicks  learn-to-hate:  
+APs: 19 healing: 0 repair: 0 militia: 15 
+Notes: Hick F10 
+ 
+#74: Perko Alish Perkopoulos Male body: Regular male 
+hlt 65 agi 57 dex 79 str 62 ldr 22 wis 76 
+mrk 45 mec 80 exp 10 med 20  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BLUEVEST PINKSKIN BLACKHEAD 
+equipment: Machete Flak Jacket 
+friends:      
+enemies:      
+civilian group: (none)  learn-to-hate:  
+APs: 17 healing: 7 repair: 11 militia: 48 
+Notes: Fixes stuff G9 
+ 
+
+Non-Player Characters (slots 75-169)
+#75: Deidranna Queen Deidranna Female body: Regular female 
+hlt 90 agi 85 dex 88 str 60 ldr 99 wis 91 
+mrk 90 mec 10 exp 12 med 10  lvl 2 
+skills: auto weaps auto weaps  trait: psycho 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS BLACKSHIRT TANSKIN BROWNHEAD 
+equipment: Rocket Rifle Spec-18 Helmet Spec-18 Vest Spec-18 Pants Minirockets, HEAP 
+civilian group: queen    
+APs: 21 healing: 4 repair: 1 militia: 84 
+Notes: The queen! P3 
+ 
+#76: Auntie Auntie Female body: Female civ (dress) 
+hlt 55 agi 31 dex 54 str 38 ldr 2 wis 72 
+mrk 30 mec 4 exp 0 med 14  lvl 1 
+skills: (none) (none)  trait: nervous 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS greyVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 13 healing: 4 repair: 0 militia: 34 
+Notes: Bloodcat quest I14 
+ 
+#77: Enrico Enrico Chivaldori Male body: Male civilian 
+hlt 88 agi 52 dex 57 str 69 ldr 91 wis 89 
+mrk 48 mec 0 exp 0 med 11  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS GREENVEST TANSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 4 repair: 0 militia: 76 
+Notes: The ex-president 
+ 
+#78: Carmen Carmen Dancio Male body: Regular male 
+hlt 84 agi 86 dex 77 str 81 ldr 7 wis 77 
+mrk 93 mec 13 exp 34 med 25  lvl 4 
+skills: auto weaps auto weaps  trait: (none) 
+attitude: loner base morale: 2 sexism: gentleman 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS BROWNVEST TANSKIN BROWNHEAD 
+equipment: FA-MAS Machete Kevlar Vest Diskette 
+civilian group: (none)    
+APs: 21 healing: 10 repair: 2 militia: 50 
+Notes: Pays terrorist bounties C13, C5, G9 
+ 
+#79: Joe Joseph Papanus Male body: Regular male 
+hlt 99 agi 99 dex 99 str 99 ldr 17 wis 99 
+mrk 99 mec 22 exp 99 med 47  lvl 9 
+skills: auto weaps martial arts  trait: (none) 
+attitude: aggressive base morale: 5 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN BLACKHEAD 
+equipment: H&K 21 Spectra Helmet Spectra Vest 7.62mm NATO 20 
+civilian group: queen    
+APs: 25 healing: 28 repair: 5 militia: 82 
+Notes: Queen's bodyguard P3 
+ 
+#80: Steve Dr. Steven Willis Male body: Male civilian 
+hlt 93 agi 84 dex 92 str 73 ldr 37 wis 95 
+mrk 16 mec 18 exp 1 med 94  lvl 1 
+skills: knifing knifing  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GREENVEST TANSKIN dirtblnde 
+equipment: Med Kit 
+civilian group: doctors    
+APs: 21 healing: 38 repair: 2 militia: 57 
+Notes: Hospital doctor F8 
+ 
+#81: Rat Ricardo "Rat" Grimaldo Male body: Regular male 
+hlt 68 agi 82 dex 91 str 75 ldr 3 wis 79 
+mrk 70 mec 27 exp 7 med 14  lvl 1 
+skills: ambidexterous knifing  trait: (none) 
+attitude: pessimist base morale: 4 sexism: very 
+salary: 300 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN WHITEHEAD 
+equipment: Gum 
+civilian group: (none)    
+APs: 19 healing: 5 repair: 4 militia: 37 
+Notes: Sci-fi only? G9 
+ 
+#82: Annie MoM Female body: Regular female 
+hlt 67 agi 34 dex 73 str 66 ldr 4 wis 68 
+mrk 53 mec 13 exp 68 med 40  lvl 3 
+skills: (none) (none)  trait: psycho 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS GREENVEST TANSKIN REDHEAD 
+equipment: G3A3 Kevlar Helmet Kevlar Vest Tear Gas Mustard Gas 
+civilian group: (none)    
+APs: 15 healing: 13 repair: 1 militia: 41 
+Notes: Terrorist 
+ 
+#83: Chris Imposter Male body: Big male 
+hlt 85 agi 81 dex 78 str 77 ldr 51 wis 58 
+mrk 90 mec 33 exp 57 med 4  lvl 4 
+skills: (none) (none)  trait: (none) 
+attitude: loner base morale: 2 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS GREENVEST TANSKIN redbrown 
+equipment: AK-74 Kevlar Helmet Kevlar Vest 5.45mm mag 
+civilian group: (none)    
+APs: 20 healing: 1 repair: 5 militia: 60 
+Notes: Terrorist 
+ 
+#84: Bob Bob Male body: Crippled civilian 
+hlt 35/72 agi 33 dex 41 str 22 ldr 1 wis 77 
+mrk 45 mec 30 exp 0 med 5  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS greyVEST PINKSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 13 healing: 1 repair: 2 militia: 35 
+Notes: Sci-fi only F8 
+ 
+#85: Brenda Brenda Drake Female body: Female civ (skirt) 
+hlt 72 agi 46 dex 70 str 84 ldr 1 wis 71 
+mrk 66 mec 70 exp 23 med 19  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: asshole base morale: 8 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS BLACKSHIRT PINKSKIN REDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 6 repair: 8 militia: 33 
+Notes: Wants a video 
+ 
+#86: Kingpin Peter "Kingpin" Klauss Male body: Regular male 
+hlt 82 agi 61 dex 76 str 84 ldr 50 wis 95 
+mrk 89 mec 19 exp 22 med 5  lvl 6 
+skills: hand-to-hand hand-to-hand  trait: (none) 
+attitude: arrogant base morale: 6 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS REDVEST PINKSKIN BLACKHEAD 
+equipment: Steyr Kevlar Helmet Guardian Vest 5.56mm mag HP 
+civilian group: kingpin    
+APs: 19 healing: 2 repair: 3 militia: 82 
+Notes: Head of San Mona mafia 
+ 
+#87: Darren Darren Van Haussen Male body: Regular male 
+hlt 79 agi 59 dex 65 str 80 ldr 19 wis 68 
+mrk 77 mec 40 exp 18 med 17  lvl 4 
+skills: auto weaps heavy weaps  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS YELLOWVEST PINKSKIN BROWNHEAD 
+equipment: Commando Kevlar Helmet Kevlar Vest 5.56mm mag HP 
+civilian group: kingpin    
+APs: 18 healing: 6 repair: 5 militia: 51 
+Notes: Runs San Mona fights D5 after 8pm 
+ 
+#88: Maria Maria DaSilva Female body: Female civ (skirt) 
+hlt 69 agi 69 dex 89 str 52 ldr 1 wis 76 
+mrk 11 mec 1 exp 0 med 2  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS REDVEST PINKSKIN redbrown 
+equipment: (none) 
+civilian group: angels    
+APs: 18 healing: 1 repair: 0 militia: 35 
+Notes: Angel's sister 
+ 
+#89: Angel Angel Dasilva Male body: Male civilian 
+hlt 83 agi 89 dex 51 str 67 ldr 4 wis 71 
+mrk 32 mec 13 exp 0 med 2  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS BLACKSHIRT TANSKIN BLACKHEAD 
+equipment: Leather Jacket Kvlr Leather Deed 
+civilian group: angels    
+APs: 19 healing: 1 repair: 1 militia: 34 
+Notes: Owns leather shop 
+ 
+#90: Joey Joey Graham Male body: Male civilian 
+hlt 98 agi 95 dex 86 str 60 ldr 1 wis 71 
+mrk 14 mec 0 exp 3 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: loner base morale: 2 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS YELLOWVEST PINKSKIN BROWNHEAD 
+equipment: Porn 
+civilian group: civ #15    
+APs: 22 healing: 0 repair: 0 militia: 33 
+Notes: Lost teen 
+ 
+#91: Tony Tony Male body: Regular male 
+hlt 77 agi 60 dex 84 str 83 ldr 6 wis 76 
+mrk 97 mec 90 exp 31 med 16  lvl 5 
+skills: (none) (none)  trait: (none) 
+attitude: pessimist base morale: 4 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS WHITEVEST TANSKIN BLACKHEAD 
+equipment: Steyr Kevlar Helmet Kevlar Vest Kevlar Pants 5.56mm mag HP 
+civilian group: SanMona Arms    
+APs: 19 healing: 7 repair: 15 militia: 53 
+Notes: Arms dealer C5 
+ 
+#92: Frank Frank Male body: Regular male 
+hlt 84 agi 55 dex 92 str 92 ldr 9 wis 71 
+mrk 70 mec 13 exp 6 med 10  lvl 2 
+skills: (none) (none)  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS BLACKSHIRT TANSKIN BLACKHEAD 
+equipment: MAC-10 Kevlar Vest .45 SMG mag HP 
+civilian group: kingpin    
+APs: 18 healing: 4 repair: 2 militia: 40 
+Notes: Mafia guard 
+ 
+#93: Spike Spike Male body: Big male 
+hlt 88 agi 59 dex 43 str 98 ldr 1 wis 44 
+mrk 93 mec 16 exp 45 med 10  lvl 4 
+skills: hand-to-hand hand-to-hand  trait: (none) 
+attitude: aggressive base morale: 5 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS BLUEVEST PINKSKIN redbrown 
+equipment: Commando Steel Helmet Kevlar Vest Spectra Pants 5.56mm mag HP 
+civilian group: kingpin    
+APs: 17 healing: 2 repair: 1 militia: 34 
+Notes: San Mona club guard 
+ 
+#94: Damon Damon Warrick Male body: Big male 
+hlt 81 agi 67 dex 41 str 94 ldr 16 wis 61 
+mrk 84 mec 13 exp 22 med 5  lvl 4 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS greyVEST TANSKIN BLACKHEAD 
+equipment: Commando Kevlar Helmet Spectra Vest Kevlar Pants 5.56mm mag HP 
+civilian group: kingpin    
+APs: 17 healing: 1 repair: 1 militia: 47 
+Notes: Mafia guard 
+ 
+#95: Kyle Kyle Lemmons Male body: Male civilian 
+hlt 79 agi 91 dex 100 str 23 ldr 1 wis 66 
+mrk 11 mec 0 exp 0 med 19  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: friendly base morale: 1 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GYELLOWSHIRT PINKSKIN BLONDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 21 healing: 7 repair: 0 militia: 31 
+Notes: Wants to own leather shop 
+ 
+#96: Micky Micky O'Brien Male body: Regular male 
+hlt 46 agi 27 dex 68 str 63 ldr 6 wis 68 
+mrk 77 mec 21 exp 47 med 13  lvl 5 
+skills: (none) (none)  trait: (none) 
+attitude: pessimist base morale: 4 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN dirtblnde 
+equipment: AK-74 Kevlar Helmet Kevlar Vest 5.45mm mag 
+civilian group: (none)    
+APs: 14 healing: 5 repair: 2 militia: 50 
+Notes: Buys bloodcat parts 
+ 
+#97: Skyrider James "Skyrider" Bullock Male body: Male civilian 
+hlt 84 agi 77 dex 97 str 84 ldr 16 wis 88 
+mrk 49 mec 73 exp 14 med 30  lvl 3 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS greyVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 21 healing: 13 repair: 13 militia: 54 
+Notes: Pilot B15, C16, E14, D12 
+ 
+#98: Pablo Pablo Greco Male body: Male civilian 
+hlt 77 agi 87 dex 79 str 80 ldr 2 wis 61 
+mrk 23 mec 55 exp 1 med 3  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST TANSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 20 healing: 1 repair: 7 militia: 29 
+Notes: Watches airport 
+ 
+#99: Sal Salvatore Lappus Male body: Male civilian 
+hlt 82 agi 77 dex 61 str 74 ldr 8 wis 75 
+mrk 39 mec 44 exp 2 med 12  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: big shot base morale: 7 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS BLUEVEST DARKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 18 healing: 4 repair: 4 militia: 37 
+Notes: Replaces Pablo 
+ 
+#100: Father Father John Walker Male body: Fat civilian 
+hlt 75 agi 56 dex 63 str 68 ldr 24 wis 78 
+mrk 14 mec 5 exp 0 med 31  lvl 1 
+skills: (none) (none)  trait: forgetful 
+attitude: coward base morale: 9 sexism: gentleman 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS BLACKSHIRT TANSKIN BLACKHEAD 
+equipment: Alcohol Alcohol 
+civilian group: (none)    
+APs: 16 healing: 9 repair: 0 militia: 45 
+Notes: Food quest C13, D13 
+ 
+#101: Fatima Fatima Female body: Female civ (dress) 
+hlt 53 agi 90 dex 70 str 48 ldr 11 wis 74 
+mrk 24 mec 7 exp 0 med 12  lvl 1 
+skills: (none) (none)  trait: nervous 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS greyVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: rebels    
+APs: 18 healing: 4 repair: 0 militia: 38 
+Notes: Leads to Miguel 
+ 
+#102: Warden Christine Woltz Female body: Regular female 
+hlt 94 agi 72 dex 86 str 62 ldr 17 wis 84 
+mrk 89 mec 9 exp 9 med 3  lvl 3 
+skills: (none) (none)  trait: (none) 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS BROWNVEST PINKSKIN redbrown 
+equipment: MAC-10 Steel Helmet Kevlar Vest 
+civilian group: warden    
+APs: 20 healing: 1 repair: 1 militia: 52 
+Notes: Tixa prison 
+ 
+#103: Gordon Gordon Jefferies Male body: Male civilian 
+hlt 24/68 agi 28 dex 69 str 35 ldr 12 wis 87 
+mrk 66 mec 11 exp 1 med 14  lvl 3 
+skills: (none) (none)  trait: nervous 
+attitude: coward base morale: 9 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 15 healing: 5 repair: 1 militia: 52 
+Notes: ?? 
+ 
+#104: Gabby Gary "Gabby" Mulnick  Male body: Male civilian 
+hlt 48/59 agi 54 dex 76 str 49 ldr 1 wis 35 
+mrk 32 mec 14 exp 42 med 26  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: loner base morale: 2 sexism: gentleman 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS greyVEST TANSKIN WHITEHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 6 repair: 1 militia: 18 
+Notes: Sci-fi only, sells elixir H11, I4 
+ 
+#105: Ernest Dr. Ernest Poppin Male body: Male civilian 
+hlt 47 agi 62 dex 78 str 28 ldr 3 wis 97 
+mrk 10 mec 90 exp 52 med 60  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: friendly base morale: 1 sexism: gentleman 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS GREENVEST TANSKIN redbrown 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 23 repair: 12 militia: 44 
+Notes: Orta scientist 
+ 
+#106: Fred Fred Morris Male body: Male civilian 
+hlt 68 agi 54 dex 62 str 71 ldr 1 wis 62 
+mrk 27 mec 16 exp 82 med 6  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS REDVEST TANSKIN REDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 2 repair: 1 militia: 29 
+Notes: Head miner (Drassen) 
+ 
+#107: Madame Madame Layla Female body: Female civ (dress) 
+hlt 78 agi 88 dex 93 str 69 ldr 13 wis 69 
+mrk 13 mec 3 exp 1 med 44  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS REDVEST TANSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: kingpin    
+APs: 20 healing: 16 repair: 0 militia: 37 
+Notes: San Mona brothel 
+ 
+#108: Yanni Yanni Nomigotta  Male body: Male civilian 
+hlt 39 agi 21 dex 41 str 27 ldr 54 wis 96 
+mrk 49 mec 31 exp 1 med 77  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST DARKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 11 healing: 23 repair: 2 militia: 64 
+Notes: Chitzena elder A2 
+ 
+#109: Martha Martha Graham Female body: Female civ (dress) 
+hlt 69 agi 43 dex 56 str 40 ldr 1 wis 47 
+mrk 2 mec 0 exp 0 med 6  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: optimist base morale: 3 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS WHITEVEST PINKSKIN dirtblnde 
+equipment: (none) 
+civilian group: civ #15    
+APs: 15 healing: 1 repair: 0 militia: 23 
+Notes: Joey's mom 
+ 
+#110: Joe Tiffany Male body: Regular male 
+hlt 69 agi 31 dex 64 str 89 ldr 4 wis 48 
+mrk 97 mec 33 exp 10 med 12  lvl 4 
+skills: auto weaps auto weaps  trait: (none) 
+attitude: aggressive base morale: 5 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN BLACKHEAD 
+equipment: Thompson Kevlar Vest .45 SMG mag 
+civilian group: (none)    
+APs: 15 healing: 3 repair: 4 militia: 37 
+Notes: Terrorist 
+ 
+#111: Jasmin T-Rex Male body: Big male 
+hlt 88 agi 80 dex 80 str 90 ldr 22 wis 45 
+mrk 79 mec 16 exp 4 med 15  lvl 6 
+skills: ambidexterous hand-to-hand  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS BLACKSHIRT BLACKSKIN BROWNHEAD 
+equipment: MAC-10 MAC-10 Spectra Helmet Spectra Vest Spectra Pants 
+civilian group: (none)    
+APs: 21 healing: 5 repair: 2 militia: 51 
+Notes: Terrorist 
+ 
+#112: Charlie Druggist Male body: Regular male 
+hlt 75 agi 60 dex 70 str 72 ldr 34 wis 80 
+mrk 60 mec 45 exp 80 med 64  lvl 4 
+skills: stealthy stealthy  trait: psycho 
+attitude: asshole base morale: 8 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GREENVEST TANSKIN BLACKHEAD 
+equipment: AKM Kevlar Helmet Kevlar Vest Kevlar Pants 5.45mm mag 
+civilian group: (none)    
+APs: 18 healing: 24 repair: 6 militia: 62 
+Notes: Terrorist (a/k/a Elgin) 
+ 
+#113: Jake Jake Cameron Male body: Male civilian 
+hlt 67 agi 41 dex 73 str 69 ldr 2 wis 47 
+mrk 69 mec 90 exp 34 med 2  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN WHITEHEAD 
+equipment: CAWS Kevlar Vest CAWS Buckshot 
+civilian group: junkyard    
+APs: 15 healing: 1 repair: 11 militia: 24 
+Notes: Junk dealer 
+ 
+#114: Pacos Pacos Male body: Kid civilian 
+hlt 25 agi 77 dex 78 str 34 ldr 1 wis 29 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS WHITEVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: rebels    
+APs: 16 healing: 0 repair: 0 militia: 16 
+Notes: Fatima's son 
+ 
+#115: Dave Dave Gerard Male body: Male civilian 
+hlt 80 agi 94 dex 55 str 77 ldr 5 wis 74 
+mrk 45 mec 98 exp 11 med 8  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GREENVEST PINKSKIN redbrown 
+equipment: (none) 
+civilian group: (none)    
+APs: 19 healing: 2 repair: 9 militia: 36 
+Notes: Sells Hummer 
+ 
+#116: Skipper Skipper Male body: Male civilian 
+hlt 39 agi 14 dex 31 str 28 ldr 1 wis 79 
+mrk 34 mec 51 exp 12 med 3  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS BROWNVEST PINKSKIN WHITEHEAD 
+equipment: Key card 
+civilian group: (none)    
+APs: 10 healing: 1 repair: 2 militia: 36 
+Notes: Estoni, has keycard 
+ 
+#117: Hans Hans Vanderkilt Male body: Regular male 
+hlt 86 agi 67 dex 79 str 88 ldr 16 wis 70 
+mrk 59 mec 97 exp 15 med 8  lvl 2 
+skills: (none) (none)  trait: (none) 
+attitude: loner base morale: 2 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS GREENVEST PINKSKIN BLONDHEAD 
+equipment: Commando Steel Helmet Kevlar Vest 5.56mm mag 
+civilian group: SanMona Arms    
+APs: 19 healing: 3 repair: 14 militia: 42 
+Notes: Video store front man 
+ 
+#118: John John Kulba Male body: Fat civilian 
+hlt 57 agi 47 dex 47 str 36 ldr 1 wis 46 
+mrk 80 mec 43 exp 2 med 8  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS WHITEVEST TANSKIN WHITEHEAD 
+equipment: (none) 
+civilian group: tourists    
+APs: 14 healing: 2 repair: 3 militia: 23 
+Notes: Tourist 
+ 
+#119: Mary Mary Kulba Female body: Female civ (dress) 
+hlt 53 agi 54 dex 67 str 28 ldr 1 wis 48 
+mrk 36 mec 0 exp 0 med 20  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS BLUEVEST TANSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: tourists    
+APs: 15 healing: 5 repair: 0 militia: 24 
+Notes: Tourist 
+ 
+#120: General General Theo Humphey Male body: Regular male 
+hlt 81 agi 41 dex 67 str 84 ldr 39 wis 85 
+mrk 83 mec 9 exp 34 med 22  lvl 7 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GREENVEST BLACKSKIN BLACKHEAD 
+equipment: G3A3 Kevlar Helmet Guardian Vest Kevlar Pants 7.62mm NATO 20 
+civilian group: Alma military    
+APs: 17 healing: 9 repair: 1 militia: 78 
+Notes: Soldier H13 
+ 
+#121: Sergeant Sergeant Krott Male body: Regular male 
+hlt 84 agi 68 dex 54 str 74 ldr 5 wis 68 
+mrk 53 mec 26 exp 4 med 7  lvl 2 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GREENVEST PINKSKIN BROWNHEAD 
+equipment: G3A3 Kevlar Helmet Kevlar Vest 7.62mm NATO 20 
+civilian group: (none)    
+APs: 18 healing: 2 repair: 2 militia: 37 
+Notes: Soldier H13 
+ 
+#122: Armand Armand Ricci Male body: Male civilian 
+hlt 49 agi 35 dex 51 str 53 ldr 7 wis 86 
+mrk 23 mec 0 exp 0 med 25  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS BLUEVEST PINKSKIN WHITEHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 13 healing: 7 repair: 0 militia: 41 
+Notes: Rich couple L11 
+ 
+#123: Lora Lora Ricci Female body: Female civ (skirt) 
+hlt 72 agi 69 dex 97 str 69 ldr 4 wis 76 
+mrk 12 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: arrogant base morale: 6 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS greyVEST PINKSKIN dirtblnde 
+equipment: (none) 
+civilian group: (none)    
+APs: 19 healing: 0 repair: 0 militia: 36 
+Notes: Rich couple L11 
+ 
+#124: Franz Franz Hinkle Male body: Male civilian 
+hlt 79 agi 58 dex 71 str 59 ldr 1 wis 78 
+mrk 24 mec 50 exp 1 med 3  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 17 healing: 1 repair: 6 militia: 36 
+Notes: Trader (electronics) L12 
+ 
+#125: Howard Howard Filmore Male body: Male civilian 
+hlt 82 agi 60 dex 71 str 68 ldr 3 wis 91 
+mrk 10 mec 4 exp 0 med 45  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 17 healing: 16 repair: 0 militia: 42 
+Notes: Trader (drug store) L12 
+ 
+#126: Sam Sam Rozen Male body: Male civilian 
+hlt 66 agi 54 dex 66 str 51 ldr 4 wis 79 
+mrk 20 mec 58 exp 11 med 2  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS BLUEVEST PINKSKIN WHITEHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 1 repair: 6 militia: 37 
+Notes: Trader (hardware) L12 
+ 
+#127: Eldin Eldin Fiddes Male body: Regular male 
+hlt 54 agi 55 dex 65 str 59 ldr 4 wis 61 
+mrk 48 mec 8 exp 4 med 12  lvl 2 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN WHITEHEAD 
+equipment: Desert Eagle 
+civilian group: (none)    
+APs: 16 healing: 3 repair: 0 militia: 34 
+Notes: Museum guard 
+ 
+#128: Arnie Arnold Brunzwell Male body: Male civilian 
+hlt 86 agi 88 dex 92 str 89 ldr 5 wis 61 
+mrk 40 mec 63 exp 3 med 6  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST BLACKSKIN BLACKHEAD 
+equipment: Kevlar Vest 
+civilian group: (none)    
+APs: 21 healing: 2 repair: 10 militia: 30 
+Notes: Handyman H1 
+ 
+#129: Tina Tina Elzan Female body: Female civ (dress) 
+hlt 88 agi 81 dex 98 str 51 ldr 2 wis 60 
+mrk 14 mec 5 exp 0 med 2  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 21 healing: 1 repair: 0 militia: 29 
+Notes: ?? 
+ 
+#130: Fredo Alexander Fredo Male body: Male civilian 
+hlt 68 agi 45 dex 71 str 54 ldr 1 wis 61 
+mrk 21 mec 94 exp 8 med 10  lvl 1 
+skills: electronics electronics  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS BLACKSHIRT DARKSKIN REDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 3 repair: 11 militia: 29 
+Notes: Unlocks rocket rifles 
+ 
+#131: Walter Walter Bazzon Male body: Male civilian 
+hlt 71 agi 61 dex 78 str 59 ldr 1 wis 91 
+mrk 8 mec 57 exp 7 med 38  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: coward base morale: 9 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS WHITEVEST PINKSKIN WHITEHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 17 healing: 14 repair: 7 militia: 41 
+Notes: Orta head scientist 
+ 
+#132: Jenny Jenny Walden Female body: Female civ (skirt) 
+hlt 79 agi 55 dex 73 str 49 ldr 3 wis 84 
+mrk 12 mec 0 exp 0 med 55  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS GREENVEST PINKSKIN REDHEAD 
+equipment: (none) 
+civilian group: doctors    
+APs: 17 healing: 19 repair: 0 militia: 39 
+Notes: Hospital nurse 
+ 
+#133: Billy Billy GoonBall Male body: Big male 
+hlt 78 agi 72 dex 68 str 88 ldr 9 wis 22 
+mrk 44 mec 2 exp 2 med 2  lvl 2 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS REDVEST PINKSKIN BROWNHEAD 
+equipment: Mini-14 Kevlar Helmet Guardian Vest 
+civilian group: kingpin    
+APs: 18 healing: 0 repair: 0 militia: 20 
+Notes: Brothel guard 
+ 
+#134: Brewster Brewster Woltz Male body: Fat civilian 
+hlt 68 agi 59 dex 62 str 74 ldr 1 wis 64 
+mrk 29 mec 20 exp 5 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: coward base morale: 9 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS PURPLESHIRT TANSKIN WHITEHEAD 
+equipment: Flak Jacket Key 
+civilian group: (none)    
+APs: 16 healing: 0 repair: 2 militia: 30 
+Notes: Warden's husband 
+ 
+#135: Elliot Messenger of bad news Male body: Male civilian 
+hlt 79 agi 78 dex 60 str 44 ldr 1 wis 22 
+mrk 30 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: JEANPANTS BLACKSHIRT PINKSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: queen    
+APs: 18 healing: 0 repair: 0 militia: 13 
+Notes: Idiot 
+ 
+#136: Derek Part of crowd for end game Male body: Regular male 
+hlt 66 agi 30 dex 30 str 30 ldr 30 wis 30 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BEIGEPANTS BROWNVEST PINKSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 12 healing: 0 repair: 0 militia: 28 
+Notes:  
+ 
+#137: Oliver Part of endgame crowd Male body: Male civilian 
+hlt 59 agi 30 dex 30 str 30 ldr 30 wis 30 
+mrk 30 mec 30 exp 30 med 30  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS REDVEST PINKSKIN redbrown 
+equipment: (none) 
+civilian group: (none)    
+APs: 12 healing: 4 repair: 1 militia: 28 
+Notes:  
+ 
+#138: Waldo Waldo Zimmer Male body: Male civilian 
+hlt 68 agi 55 dex 88 str 67 ldr 2 wis 51 
+mrk 10 mec 87 exp 1 med 4  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: friendly base morale: 1 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST PINKSKIN redbrown 
+equipment: (none) 
+civilian group: (none)    
+APs: 17 healing: 1 repair: 13 militia: 25 
+Notes: ?? 
+ 
+#139: Doreen Doreen Harrows Female body: Female civ (skirt) 
+hlt 73 agi 72 dex 80 str 66 ldr 1 wis 76 
+mrk 28 mec 39 exp 0 med 8  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: loner base morale: 2 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN dirtblnde 
+equipment: Key 
+civilian group: (none)    
+APs: 18 healing: 3 repair: 5 militia: 35 
+Notes: Runs sweat shop 
+ 
+#140: Jim Jim Perry Male body: Regular male 
+hlt 87 agi 93 dex 72 str 86 ldr 43 wis 42 
+mrk 78 mec 12 exp 58 med 14  lvl 6 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN BROWNHEAD 
+equipment: AK-74 Kevlar Helmet Spectra Vest 5.45mm mag HP 
+civilian group: (none)    
+APs: 21 healing: 4 repair: 1 militia: 58 
+Notes: Assassin 
+ 
+#141: Jack Jack Remington Male body: Regular male 
+hlt 90 agi 78 dex 90 str 82 ldr 14 wis 76 
+mrk 92 mec 11 exp 87 med 12  lvl 5 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN BLACKHEAD 
+equipment: AK-74 Kevlar Helmet Spectra Vest 5.45mm mag HP 
+civilian group: (none)    
+APs: 21 healing: 5 repair: 2 militia: 56 
+Notes: Assassin 
+ 
+#142: Olaf Olaf Helinski Male body: Big male 
+hlt 84 agi 81 dex 78 str 88 ldr 31 wis 45 
+mrk 79 mec 18 exp 44 med 45  lvl 7 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN redbrown 
+equipment: AK-74 Spectra Helmet Spectra Vest 5.45mm mag 
+civilian group: (none)    
+APs: 21 healing: 15 repair: 3 militia: 58 
+Notes: Assassin 
+ 
+#143: Ray Ray Baker Male body: Big male 
+hlt 97 agi 91 dex 88 str 72 ldr 30 wis 67 
+mrk 98 mec 30 exp 60 med 30  lvl 6 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST PINKSKIN dirtblnde 
+equipment: AK-74 Kevlar Helmet Guardian Vest 5.45mm mag 
+civilian group: (none)    
+APs: 23 healing: 13 repair: 5 militia: 63 
+Notes: Assassin 
+ 
+#144: Olga Olga Statova Male body: Regular female 
+hlt 90 agi 72 dex 68 str 79 ldr 45 wis 62 
+mrk 99 mec 32 exp 67 med 32  lvl 6 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST TANSKIN BROWNHEAD 
+equipment: AK-74 Spectra Helmet Guardian Vest 5.45mm mag 
+civilian group: (none)    
+APs: 20 healing: 11 repair: 4 militia: 67 
+Notes: Assassin 
+ 
+#145: Tyrone Tyrone Banks Male body: Regular male 
+hlt 88 agi 88 dex 88 str 88 ldr 58 wis 78 
+mrk 88 mec 88 exp 88 med 88  lvl 8 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS greyVEST BLACKSKIN BLACKHEAD 
+equipment: AK-74 Kevlar Helmet Kevlar Vest 5.45mm mag 
+civilian group: (none)    
+APs: 22 healing: 43 repair: 18 militia: 86 
+Notes: Assassin 
+ 
+#146: MadLab Dr. Nathaniel "MadLab" Kairns Male body: Male civilian 
+hlt 82 agi 82 dex 84 str 79 ldr 13 wis 93 
+mrk 60 mec 17 exp 2 med 35  lvl 1 
+skills: teaching teaching  trait: (none) 
+attitude: arrogant base morale: 6 sexism: gentleman 
+salary: 350 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS WHITEVEST PINKSKIN redbrown 
+equipment: Tool Kit Robot Remote Robot Remote 
+civilian group: (none)   Nails 
+APs: 20 healing: 13 repair: 2 militia: 74 
+Notes: Shows up when 35% done H7, H16, I11, E4 
+ 
+#147: Keith Keith Hemps Male body: Regular male 
+hlt 87 agi 74 dex 70 str 80 ldr 2 wis 70 
+mrk 33 mec 67 exp 5 med 2  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS YELLOWVEST PINKSKIN dirtblnde 
+equipment: Desert Eagle Kevlar Vest 
+civilian group: (none)    
+APs: 19 healing: 1 repair: 8 militia: 33 
+Notes: Trader (various) G9 
+ 
+#148: Matt Matt Duncan Male body: Regular male 
+hlt 83 agi 92 dex 90 str 85 ldr 10 wis 81 
+mrk 27 mec 70 exp 60 med 17  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: somewhat 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS REDVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 21 healing: 6 repair: 11 militia: 40 
+Notes: Head miner (Alma) 
+ 
+#149: Mike Mike Male body: Regular male 
+hlt 99 agi 99 dex 99 str 99 ldr 99 wis 99 
+mrk 99 mec 99 exp 99 med 99  lvl 9 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLACKPANTS BLACKSHIRT PINKSKIN BLACKHEAD 
+equipment: G11 Spec-18 Helmet Spec-18 Vest Spectra Pants 4.7mm mag 
+civilian group: (none)    
+APs: 25 healing: 59 repair: 23 militia: 115 
+Notes: Shows up when 50% done 
+ 
+#150: Daryl Daryl Hick Male body: Regular male 
+hlt 73 agi 57 dex 68 str 69 ldr 11 wis 55 
+mrk 79 mec 33 exp 13 med 9  lvl 2 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS BLUEVEST TANSKIN BROWNHEAD 
+equipment: Mini-14 Kevlar Vest 5.56mm mag HP 
+civilian group: hicks    
+APs: 17 healing: 3 repair: 4 militia: 34 
+Notes: Head hick F10 
+ 
+#151: Herve Herve Santos Male body: Male civilian 
+hlt 77 agi 80 dex 78 str 70 ldr 1 wis 70 
+mrk 35 mec 14 exp 0 med 5  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS REDVEST TANSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 19 healing: 2 repair: 1 militia: 32 
+Notes: Bartender 
+ 
+#152: Peter Peter Santos Male body: Male civilian 
+hlt 77 agi 80 dex 78 str 70 ldr 1 wis 70 
+mrk 35 mec 14 exp 0 med 5  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS REDVEST TANSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 19 healing: 2 repair: 1 militia: 32 
+Notes: Bartender 
+ 
+#153: Alberto Alberto Santos Male body: Male civilian 
+hlt 77 agi 80 dex 78 str 70 ldr 1 wis 70 
+mrk 35 mec 14 exp 0 med 5  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS REDVEST TANSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 19 healing: 2 repair: 1 militia: 32 
+Notes: Bartender 
+ 
+#154: Carlo Carlo Santos Male body: Male civilian 
+hlt 77 agi 80 dex 78 str 70 ldr 1 wis 70 
+mrk 35 mec 14 exp 0 med 5  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS REDVEST TANSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 19 healing: 2 repair: 1 militia: 32 
+Notes: Bartender 
+ 
+#155: Manny Manny Santos Male body: Male civilian 
+hlt 67 agi 60 dex 58 str 90 ldr 1 wis 40 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: TANPANTS REDVEST TANSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 0 repair: 0 militia: 20 
+Notes: Bartender 
+ 
+#156: Oswald Oswald Johnston Male body: Male civilian 
+hlt 65 agi 60 dex 70 str 60 ldr 40 wis 50 
+mrk 30 mec 0 exp 0 med 20  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS REDVEST BLACKSKIN BLACKHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 17 healing: 5 repair: 0 militia: 40 
+Notes: Head miner (Grumm) 
+ 
+#157: Calvin  Calvin Barkmore Male body: Male civilian 
+hlt 83 agi 92 dex 96 str 83 ldr 1 wis 45 
+mrk 50 mec 43 exp 9 med 4  lvl 2 
+skills: (none) (none)  trait: psycho 
+attitude: loner base morale: 2 sexism: very 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS greyVEST TANSKIN BROWNHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 21 healing: 1 repair: 7 militia: 26 
+Notes: Head miner (Chitzena) 
+ 
+#158: Carl Carl Tercel Male body: Male civilian 
+hlt 68 agi 57 dex 71 str 66 ldr 12 wis 73 
+mrk 34 mec 38 exp 80 med 8  lvl 1 
+skills: (none) (none)  trait: nervous 
+attitude: normal base morale: 0 sexism: not 
+salary: 50 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: BLUEPANTS greyVEST TANSKIN WHITEHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 16 healing: 3 repair: 4 militia: 38 
+Notes: Head miner (Cambria) 
+ 
+#159: Speck...  Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes: Not in game? 
+ 
+#160: Hummer Hummer Male body: Humvee 
+hlt 100 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 10 healing: 0 repair: 0 militia: 5 
+Notes: Vehicle L10 
+ 
+#161: El Dorado El Dorado Male body: El Dorado 
+hlt 100 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 10 healing: 0 repair: 0 militia: 5 
+Notes: Does not appear in game 
+ 
+#162: Truck Ice Cream Truck Male body: Ice Cream Truck 
+hlt 100 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance: GREENPANTS BROWNVEST PINKSKIN BLONDHEAD 
+equipment: (none) 
+civilian group: (none)    
+APs: 10 healing: 0 repair: 0 militia: 5 
+Notes: Vehicle (see Hamous) 
+ 
+#163:   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#164:   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#165:   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#166:   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#167:   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#168:   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+#169:   Male body: Regular male 
+hlt 15 agi 1 dex 1 str 1 ldr 1 wis 1 
+mrk 0 mec 0 exp 0 med 0  lvl 1 
+skills: (none) (none)  trait: (none) 
+attitude: normal base morale: 0 sexism: not 
+salary: 0 weekly: 0 bi-weekly: 0 deposit: yes 
+appearance:     
+equipment: (none) 
+civilian group: (none)    
+APs: 10- healing: 0 repair: 0 militia: 5 
+Notes:  
+ 
+
+JA2Dump v1.1 by Andy McFadden
