@@ -40,7 +40,7 @@ HWND hWndMain=NULL; //main window handle
 CBitMapObject bmoMap;
 //block images
 CBitMapObject bmoBlocks;
-CBitMapObject bmoButtons[10];
+CBitMapObject bmoButtons[100];
 int Map[10][30+1]; //the game map!
 
 
@@ -57,7 +57,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	game.Init( "Engine Test v1.0" );
 
 	// load the intro
-	game.ChangeState( CIntroState::Instance() );
+	//game.ChangeState( CIntroState::Instance() );
 
 
 
@@ -82,36 +82,36 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 	
 	MSG			msg = {0};
-WNDCLASSEX WndClsEx;// Populate the WNDCLASSEX structure
-WndClsEx.cbSize        = sizeof(WNDCLASSEX);
-WndClsEx.style         = CS_OWNDC | CS_HREDRAW | CS_VREDRAW | CS_DBLCLKS;
-WndClsEx.lpfnWndProc   = WndProc;
-WndClsEx.cbClsExtra    = 0;
-WndClsEx.cbWndExtra    = 0;
-WndClsEx.hIcon         = LoadIcon(NULL, IDI_APPLICATION);
-WndClsEx.hCursor       = LoadCursor(NULL, IDC_ARROW);
-WndClsEx.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH);
-WndClsEx.lpszMenuName  = NULL;
-WndClsEx.lpszClassName = "ExodusClass";
-WndClsEx.hInstance     = hInstMain;
-WndClsEx.hIconSm       = LoadIcon(NULL, IDI_APPLICATION);
+	WNDCLASSEX WndClsEx;// Populate the WNDCLASSEX structure
+	WndClsEx.cbSize        = sizeof(WNDCLASSEX);
+	WndClsEx.style         = CS_OWNDC | CS_HREDRAW | CS_VREDRAW | CS_DBLCLKS;
+	WndClsEx.lpfnWndProc   = WndProc;
+	WndClsEx.cbClsExtra    = 0;
+	WndClsEx.cbWndExtra    = 0;
+	WndClsEx.hIcon         = LoadIcon(NULL, IDI_APPLICATION);
+	WndClsEx.hCursor       = LoadCursor(NULL, IDC_ARROW);
+	WndClsEx.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH);
+	WndClsEx.lpszMenuName  = NULL;
+	WndClsEx.lpszClassName = "ExodusClass";
+	WndClsEx.hInstance     = hInstMain;
+	WndClsEx.hIconSm       = LoadIcon(NULL, IDI_APPLICATION);
 
-// Register the class
-RegisterClassEx(&WndClsEx);
+	// Register the class
+	RegisterClassEx(&WndClsEx);
 	
-hWndMain = CreateWindowEx(0,"ExodusClass",
-	csvCfg.at(0).at(2).c_str(),
- 		  WS_OVERLAPPEDWINDOW,
- 		  CW_USEDEFAULT,
- 		  CW_USEDEFAULT,
- 		  CW_USEDEFAULT,
- 		  CW_USEDEFAULT,
- 		  NULL,
- 		  NULL,
- 		  hInstance,
- 		  NULL);
+	hWndMain = CreateWindowEx(0,"ExodusClass",
+		csvCfg.at(0).at(2).c_str(),
+ 			  WS_OVERLAPPEDWINDOW,
+ 			  CW_USEDEFAULT,
+ 			  CW_USEDEFAULT,
+ 			  CW_USEDEFAULT,
+ 			  CW_USEDEFAULT,
+ 			  NULL,
+ 			  NULL,
+ 			  hInstance,
+ 			  NULL);
 
-GameInit();
+	GameInit();
 	ShowWindow(hWndMain, SW_SHOWNORMAL) ; //iCmdShow
 	UpdateWindow(hWndMain);
 	//msg.message != WM_QUIT
@@ -152,14 +152,38 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 				DestroyWindow(hwnd);
 				return(0);//handled message
 			}
-			//check for escape key
-			if(wParam==VK_SPACE)
+			//check for space key
+			if(wParam==VK_F1)
 			{
-  				BitBlt(bmoMap,100,0,490,60,bmoButtons[5],0,0,SRCAND);
-				BitBlt(bmoMap,1000,0,490,60,bmoButtons[5],0,0,SRCPAINT);
-				
+				SetWindowText(hwnd,"Start new game");
+				BitBlt(bmoMap,0,0,bmoButtons[0].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[0],0,0,SRCAND);
+				BitBlt(bmoMap,0,0,bmoButtons[0].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[10],0,0,SRCPAINT);
+				//invalidate the window rect
+				InvalidateRect(hWndMain,NULL,FALSE);
+
 				return(0);//handled message
 			}
+			if(wParam==VK_F2)
+			{
+				SetWindowText(hwnd,"Continue saved game");
+				return(0);//handled message
+			}
+			if(wParam==VK_F3)
+			{
+				SetWindowText(hwnd,"Preferences");
+				return(0);//handled message
+			}
+			if(wParam==VK_F4)
+			{
+				SetWindowText(hwnd,"Credits");
+				return(0);//handled message
+			}
+			if(wParam==VK_F5)
+			{
+				SetWindowText(hwnd,"Quit");
+				return(0);//handled message
+			}
+
 
 		}
 	case WM_TIMER:
@@ -220,17 +244,19 @@ bool GameInit()
 
 	bmoBlocks.Load(NULL,"./data/gfx/menu/menu-background.bmp");
 
-	bmoButtons[0].Load(NULL,"./data/gfx/menu/start-new-game.bmp");
-	bmoButtons[1].Load(NULL,"./data/gfx/menu/continue-saved-game.bmp");
-	bmoButtons[2].Load(NULL,"./data/gfx/menu/preferences.bmp");
-	bmoButtons[3].Load(NULL,"./data/gfx/menu/credits.bmp");
-	bmoButtons[4].Load(NULL,"./data/gfx/menu/quit.bmp");
+	bmoButtons[0].Load(NULL,"./data/gfx/menu/StartNewGameMask.bmp");
+	bmoButtons[1].Load(NULL,"./data/gfx/menu/ContinueSavedGameMask.bmp");
+	bmoButtons[2].Load(NULL,"./data/gfx/menu/PreferencesMask.bmp");
+	bmoButtons[3].Load(NULL,"./data/gfx/menu/CreditsMask.bmp");
+	bmoButtons[4].Load(NULL,"./data/gfx/menu/QuitMask.bmp");
 
-	bmoButtons[5].Load(NULL,"./data/gfx/menu/start-new-game-active.bmp");
-	bmoButtons[6].Load(NULL,"./data/gfx/menu/continue-saved-game-active.bmp");
-	bmoButtons[7].Load(NULL,"./data/gfx/menu/preferences-active.bmp");
-	bmoButtons[8].Load(NULL,"./data/gfx/menu/credits-active.bmp");
-	bmoButtons[9].Load(NULL,"./data/gfx/menu/quit-active.bmp");
+	bmoButtons[5].Load(NULL,"./data/gfx/menu/StartNewGameImage.bmp");
+	bmoButtons[6].Load(NULL,"./data/gfx/menu/ContinueSavedGameImage.bmp");
+	bmoButtons[7].Load(NULL,"./data/gfx/menu/PreferencesImage.bmp");
+	bmoButtons[8].Load(NULL,"./data/gfx/menu/CreditsImage.bmp");
+	bmoButtons[9].Load(NULL,"./data/gfx/menu/QuitImage.bmp");
+
+	bmoButtons[10].Load(NULL,"./data/gfx/menu/QuitImageActive.bmp");
 	//set the client area size
 	/*
 	RECT rcTemp;
@@ -261,6 +287,20 @@ void DrawTile(int x,int y,int tile)//put a tile
 
 void GameLoop()
 {
+
+	POINT cursorPos;
+        GetCursorPos(&cursorPos);
+        float x = 0;
+        x = cursorPos.x; 
+        float y = 0;
+        y = cursorPos.y;
+
+        char msg[50];
+
+        sprintf(msg, "x: %.2f\n"
+            "y : %.2f\n", x, y);
+
+
 	if( (GetTickCount() - start_time) > 1000)
 	{
 		//Move(0,1);
@@ -280,19 +320,24 @@ for(int xmy=10; xmy< 11; xmy++)
 		for(int ymx=0; ymx<4; ymx++)
 				DrawTile(12+xmy, ymx,2);
 */
-	//BitBlt(bmoMap,0,0,490,60,bmoButtons[0],0,0,SRCAND);
-	//BitBlt(bmoMap,0,0,490,60,bmoButtons[0],0,0,SRCPAINT);
-		BitBlt(bmoMap,0,60,490,60,bmoButtons[1],0,0,SRCAND);
-	BitBlt(bmoMap,0,60,490,60,bmoButtons[1],0,0,SRCPAINT);
-		BitBlt(bmoMap,0,120,490,60,bmoButtons[2],0,0,SRCAND);
-	BitBlt(bmoMap,0,120,490,60,bmoButtons[2],0,0,SRCPAINT);
-		BitBlt(bmoMap,0,180,490,60,bmoButtons[3],0,0,SRCAND);
-	BitBlt(bmoMap,0,180,490,60,bmoButtons[3],0,0,SRCPAINT);
-		BitBlt(bmoMap,0,240,490,60,bmoButtons[4],0,0,SRCAND);
-	BitBlt(bmoMap,0,240,490,60,bmoButtons[4],0,0,SRCPAINT);
+	BitBlt(bmoMap,0,0,bmoBlocks.GetWidth(),bmoBlocks.GetHeight(),bmoBlocks,0,0,SRCCOPY);
+
+	BitBlt(bmoMap,0,0,bmoButtons[0].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[0],0,0,SRCAND);
+	BitBlt(bmoMap,0,0,bmoButtons[0].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[5],0,0,SRCPAINT);
+
+	BitBlt(bmoMap,0,60,bmoButtons[1].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[1],0,0,SRCAND);
+	BitBlt(bmoMap,0,60,bmoButtons[1].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[6],0,0,SRCPAINT);
+
+	BitBlt(bmoMap,0,120,bmoButtons[2].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[2],0,0,SRCAND);
+	BitBlt(bmoMap,0,120,bmoButtons[2].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[7],0,0,SRCPAINT);
+
+	BitBlt(bmoMap,0,180,bmoButtons[3].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[3],0,0,SRCAND);
+	BitBlt(bmoMap,0,180,bmoButtons[3].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[8],0,0,SRCPAINT);
+	
+	BitBlt(bmoMap,0,240,bmoButtons[4].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[4],0,0,SRCAND);
+	BitBlt(bmoMap,0,240,bmoButtons[5].GetWidth(),bmoButtons[0].GetHeight(),bmoButtons[9],0,0,SRCPAINT);
 	//BitBlt(bmoMap,0,0,160,480,bmoBlocks,0,0,SRCAND);
 
-	BitBlt(bmoMap,0,0,1024,768,bmoBlocks,0,0,SRCAND);
 	//invalidate the window rect
 	InvalidateRect(hWndMain,NULL,FALSE);
 }

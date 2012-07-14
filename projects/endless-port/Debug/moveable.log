@@ -1,3 +1,4 @@
 ﻿  main.cpp
-c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(60): error C2653: 'CIntroState' : is not a class or namespace name
-c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(60): error C3861: 'Instance': identifier not found
+c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(294): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
+c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(296): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
+  moveable.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\.\Debug\endless-port.exe
