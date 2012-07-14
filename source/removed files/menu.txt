@@ -1,8 +1,0 @@
-create player
-load player
-character list
-hall of records
-helplesson
-tutorial
-options
-exit
