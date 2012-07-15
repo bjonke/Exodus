@@ -505,22 +505,44 @@ militia: 41
 Notes:  
  
 #14: Fox 
-Cynthia "Fox" Guzzman Female body: Regular female 
-hlt 77 agi 85 dex 100 str 55 ldr 21 wis 76 
-mrk 69 mec 15 exp 8 med 70  lvl 2 
-skills: teaching ambidexterous  trait: fear of insects 
-attitude: pessimist base morale: 4 sexism: not 
-salary: 625 weekly: 4000 bi-weekly: 7000 deposit: no 
+Cynthia "Fox" Guzzman 
+Female 
+body: Regular female 
+hlt 77 
+agi 85 
+dex 100 
+str 55 
+ldr 21 
+wis 76 
+mrk 69 
+mec 15 
+exp 8 
+med 70  
+lvl 2 
+skills: teaching ambidexterous  
+trait: fear of insects 
+attitude: pessimist 
+base morale: 4 sexism: not 
+salary: 625 
+weekly: 4000 
+bi-weekly: 7000 
+deposit: no 
 appearance: JEANPANTS REDVEST TANSKIN BROWNHEAD 
 equipment: Glock 17 Steel Helmet Flak Jacket 9mm mag Med Kit 
 friends: Wolf     
 enemies: Steroid     
-civilian group: (none)  learn-to-hate: Haywire 
-APs: 21 healing: 28 repair: 2 militia: 61 
+civilian group: (none)  
+learn-to-hate: Haywire 
+APs: 21 
+healing: 28 
+repair: 2 
+militia: 61 
 Notes:  
  
 #15: Sidney 
-Sidney Nettleson Male body: Regular male 
+Sidney Nettleson 
+Male 
+body: Regular male 
 hlt 80 agi 70 dex 91 str 76 ldr 27 wis 78 
 mrk 92 mec 2 exp 15 med 44  lvl 5 
 skills: throwing throwing  trait: (none) 
