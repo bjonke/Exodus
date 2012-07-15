@@ -1,0 +1,21 @@
+menu choices
+e-mail
+browser
+files
+financial
+personnel
+
+secondary menu
+
+home
+members
+policies
+history
+links
+
+
+logo
+5x8 squares
+
+86x84 pixels faces
+new 64x80 pixels faces

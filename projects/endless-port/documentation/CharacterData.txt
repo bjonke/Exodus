@@ -433,33 +433,75 @@ militia: 73
 Notes:  
  
 #12: Reaper 
-Carl "Reaper" Sheppards Male body: Regular male 
-hlt 81 agi 92 dex 92 str 79 ldr 37 wis 81 
-mrk 97 mec 37 exp 47 med 2  lvl 6 
-skills: stealthy on roof  trait: (none) 
-attitude: loner base morale: 2 sexism: not 
-salary: 4000 weekly: 25000 bi-weekly: 48000 deposit: no 
+Carl "Reaper" Sheppards 
+Male 
+body: Regular male 
+hlt 81 
+agi 92 
+dex 92 
+str 79 
+ldr 37 
+wis 81 
+mrk 97 
+mec 37 
+exp 47 
+med 2  
+lvl 6 
+skills: stealthy on roof  
+trait: (none) 
+attitude: loner 
+base morale: 2 
+sexism: not 
+salary: 4000 
+weekly: 25000 
+bi-weekly: 48000 
+deposit: no 
 appearance: JEANPANTS greyVEST TANSKIN BROWNHEAD 
 equipment: Commando Steel Helmet Kevlar Vest 5.56mm mag Locksmith Kit 
 friends:      
 enemies:      
-civilian group: (none)  learn-to-hate: Numb 
-APs: 22 healing: 1 repair: 7 militia: 71 
+civilian group: (none)  
+learn-to-hate: Numb 
+APs: 22 
+healing: 1 
+repair: 7 
+militia: 71 
 Notes:  
  
 #13: Fidel 
-Fidel Dahan  Male body: Regular male 
-hlt 88 agi 83 dex 64 str 83 ldr 1 wis 71 
-mrk 85 mec 6 exp 97 med 3  lvl 3 
-skills: hand-to-hand (none)  trait: psycho 
-attitude: aggressive base morale: 5 sexism: very 
-salary: 2000 weekly: 9500 bi-weekly: 16000 deposit: yes 
+Fidel Dahan  
+Male 
+body: Regular male 
+hlt 88 
+agi 83 
+dex 64 
+str 83 
+ldr 1 
+wis 71 
+mrk 85 
+mec 6 
+exp 97 
+med 3  
+lvl 3 
+skills: hand-to-hand (none)  
+trait: psycho 
+attitude: aggressive 
+base morale: 5 
+sexism: very 
+salary: 2000 
+weekly: 9500 
+bi-weekly: 16000 
+deposit: yes 
 appearance: TANPANTS BROWNVEST DARKSKIN BLACKHEAD 
 equipment: Beretta 93R Steel Helmet Kevlar Vest 9mm mag C1 
 friends: Razor     
 enemies:      
-civilian group: (none)  learn-to-hate: Flo 
-APs: 20 healing: 1 repair: 0 militia: 41 
+civilian group: (none)  
+learn-to-hate: Flo 
+APs: 20 
+healing: 1 
+repair: 0 
+militia: 41 
 Notes:  
  
 #14: Fox 
