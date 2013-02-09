@@ -27,8 +27,6 @@ protected:
 private:
 	static CIntroState m_IntroState;
 
-	//SDL_Surface* bg;
-	//SDL_Surface* fader;
 	int alpha;
 };
 

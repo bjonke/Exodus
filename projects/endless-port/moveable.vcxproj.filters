@@ -2,68 +2,40 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1bc9541b-c9eb-47ba-bcdf-6c1f509e825c}</UniqueIdentifier>
+      <UniqueIdentifier>{9020252c-49c6-4d80-9e25-1629446f8e45}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
-    <Filter Include="Source Files\misc">
-      <UniqueIdentifier>{33a6ad39-e943-4d41-b82d-18989bdf1dda}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{511af590-eb9b-4a2c-937d-e703f3a738ff}</UniqueIdentifier>
+      <UniqueIdentifier>{859b9190-0f39-4a04-a339-d70d3ff2df67}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
-    <Filter Include="Header Files\misc">
-      <UniqueIdentifier>{5d1eea7b-6db0-4a6f-9993-7edf88e30bad}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{f9a9d4c9-d26a-4bdb-87ba-8bfa86bb2776}</UniqueIdentifier>
+      <UniqueIdentifier>{0f092284-4281-4c1e-a01a-a6729bebfa78}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="misc\main.cpp">
-      <Filter>Source Files\misc</Filter>
-    </ClCompile>
-    <ClCompile Include="graphics\CBitMapObject.cpp">
+    <ClCompile Include="Graphics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CFileManager.cpp">
-      <Filter>Source Files\misc</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CGameEngine.cpp">
-      <Filter>Source Files\misc</Filter>
-    </ClCompile>
-    <ClCompile Include="CIntroState.cpp">
-      <Filter>Source Files\misc</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="misc\main.h">
-      <Filter>Header Files\misc</Filter>
-    </ClInclude>
-    <ClInclude Include="graphics\CBitMapObject.h">
+    <ClInclude Include="Clevels.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="filehandling\CSV_reader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CFileManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CGameState.h">
-      <Filter>Header Files\misc</Filter>
     </ClInclude>
     <ClInclude Include="CGameEngine.h">
-      <Filter>Header Files\misc</Filter>
-    </ClInclude>
-    <ClInclude Include="CIntroState.h">
-      <Filter>Header Files\misc</Filter>
-    </ClInclude>
-    <ClInclude Include="CBarryState.h">
-      <Filter>Header Files\misc</Filter>
-    </ClInclude>
-    <ClInclude Include="CCharacterData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

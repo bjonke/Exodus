@@ -4,5 +4,4 @@ c:\users\risk\documents\github\exodus\projects\endless-port\network\network\main
 c:\users\risk\documents\github\exodus\projects\endless-port\network\network\main.cpp(111): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
           c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
 c:\users\risk\documents\github\exodus\projects\endless-port\network\network\main.cpp(13): warning C4101: 'clientAddr' : unreferenced local variable
-  LINK : C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Debug\Network.exe not found or not built by the last incremental link; performing full link
   Network.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\Debug\Network.exe

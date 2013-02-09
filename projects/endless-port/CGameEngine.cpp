@@ -1,12 +1,14 @@
 
 #include <stdio.h>
+#include <Windows.h>
 
 #include "CGameEngine.h"
 #include "CGameState.h"
 
-void CGameEngine::Init(const char* title, int width, int height, 
+void CGameEngine::Init(HWND hwnd, const char* title, int width, int height, 
 						 int bpp, bool fullscreen)
 {
+	hWndMain = hwnd;
 	int flags = 0;
 
 	// initialize Video
@@ -22,7 +24,7 @@ void CGameEngine::Init(const char* title, int width, int height,
 	m_fullscreen = fullscreen;
 	m_running = true;
 
-	printf("CGameEngine Init\n");
+	SetWindowText(hWndMain,"CGameEngine Init");
 }
 
 void CGameEngine::Cleanup()
@@ -39,9 +41,7 @@ void CGameEngine::Cleanup()
 		;
 	}
 
-	printf("CGameEngine Cleanup\n");
-
-	// shutdown SDL
+	SetWindowText(hWndMain,"CGameEngine Cleanup");
 }
 
 void CGameEngine::ChangeState(CGameState* state) 

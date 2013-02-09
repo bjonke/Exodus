@@ -5,12 +5,12 @@
 #include <ctime>
 #include <stack>
 #include <vector>
-
+using namespace std;
 
 #include "../CGameEngine.h"
-//#include "introstate.h"
-
+#include "../CIntroState.h"
 #include "../misc/main.h"
+
 //now let's include our bitmapobject definitions
 #include "../graphics/CBitMapObject.h"
 #include "../CFileManager.h"
@@ -43,24 +43,17 @@ CBitMapObject bmoBlocks;
 CBitMapObject bmoButtons[100];
 int Map[10][30+1]; //the game map!
 
-
-
 /***************************************************************************************
 	Main window entry point
 ****************************************************************************************/
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 				   PSTR szCmdLine, int iCmdShow) 
 {
-	CGameEngine game;
-
-	// initialize the engine
-	game.Init( "Engine Test v1.0" );
-
-	// load the intro
-	//game.ChangeState( CIntroState::Instance() );
 
 
-
+/***************************************************************************************
+	Sound init ends here
+****************************************************************************************/
 
 	CFileManager FileManager;
 	std::fstream test;
@@ -111,6 +104,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
  			  hInstance,
  			  NULL);
 
+	CGameEngine game;
+	// initialize the engine
+	game.Init(hWndMain, "Engine Test v1.0" );
+	// load the intro
+	game.ChangeState( CIntroState::Instance() );
+
+
 	GameInit();
 	ShowWindow(hWndMain, SW_SHOWNORMAL) ; //iCmdShow
 	UpdateWindow(hWndMain);
@@ -125,12 +125,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 			TranslateMessage(&msg);
 			DispatchMessage(&msg);
 		}
-		
-		//game.HandleEvents();
-		//game.Update();
-		//game.Draw();
+
+		game.HandleEvents();
+		game.Update();
+		game.Draw();
 		GameLoop();
 	}
+
 	// cleanup the engine
 	game.Cleanup();
 

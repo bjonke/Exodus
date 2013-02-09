@@ -3,6 +3,7 @@
 #define GAMEENGINE_H
 
 #include <vector>
+#include <Windows.h>
 using namespace std;
 
 class CGameState;
@@ -11,7 +12,7 @@ class CGameEngine
 {
 public:
 
-	void Init(const char* title, int width=640, int height=480, 
+	void Init(HWND hwnd, const char* title, int width=640, int height=480, 
 		      int bpp=0, bool fullscreen=false);
 	void Cleanup();
 
@@ -34,6 +35,7 @@ private:
 
 	bool m_running;
 	bool m_fullscreen;
+	HWND hWndMain;
 };
 
 #endif

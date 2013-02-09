@@ -1,4 +1,26 @@
-﻿  main.cpp
-c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(294): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-c:\users\risk\documents\github\exodus\projects\endless-port\misc\main.cpp(296): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-  moveable.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\.\Debug\endless-port.exe
+﻿Build started 2013-02-09 19:31:10.
+     1>Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\moveable.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Graphics.cpp
+         Graphics.cpp
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\map\cmapstuff.h(158): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\map\cmapstuff.h(160): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\map\cmapstuff.h(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\map\cmapstuff.h(164): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\player\pod_player.h(35): error C2371: 'AInput' : redefinition; different basic types
+                 c:\users\risk\documents\github\exodus\projects\endless-port\player\sactor.h(46) : see declaration of 'AInput'
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\player\pod_player.h(38): error C2011: 'SEquipped' : 'struct' type redefinition
+                 c:\users\risk\documents\github\exodus\projects\endless-port\player\sactor.h(49) : see declaration of 'SEquipped'
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\player\pod_player.h(46): error C2504: 'SEquipped' : base class undefined
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\player\pod_player.h(108): error C2371: 'PlayerTable' : redefinition; different basic types
+                 c:\users\risk\documents\github\exodus\projects\endless-port\player\sactor.h(120) : see declaration of 'PlayerTable'
+     1>c:\users\risk\documents\github\exodus\projects\endless-port\graphics.cpp(13): fatal error C1083: Cannot open include file: 'gs_BLITTER.h': No such file or directory
+     1>Done Building Project "C:\Users\risk\Documents\GitHub\Exodus\projects\endless-port\moveable.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.79

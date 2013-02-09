@@ -1,3 +1,6 @@
 ﻿  main.cpp
 c:\users\risk\documents\github\exodus\projects\event handler\main.cpp(101): warning C4355: 'this' : used in base member initializer list
+  event_handler.cpp
+  Generating Code...
+  LINK : C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.exe not found or not built by the last incremental link; performing full link
   event handler.vcxproj -> C:\Users\risk\Documents\GitHub\Exodus\projects\Event Handler\Debug\event handler.exe

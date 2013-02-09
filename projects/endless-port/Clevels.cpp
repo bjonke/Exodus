@@ -4,7 +4,6 @@
 #include <fstream>
 using namespace std;
 #include <windows.h>
-#include "graphics.h"
 #include "Clevels.h"
 
 bool CLevels::LoadLevel(HDC BackBuffer, RECT rect, char *LevelFile)
