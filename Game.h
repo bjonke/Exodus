@@ -23,6 +23,11 @@
 
 // @date 2012-08-07
 
+typedef struct Map  
+{  
+    int tile[40][40];  
+} Map;
+
 enum{	GS_INTRO, GS_LEVEL1, GS_LEVEL1BOSS, GS_OUTRO, 
 		GS_LOADING, GS_INTROSTORY, GS_MORPH, GS_DEAD, GS_ENTERNAME };
 enum{ BOSS_IDLE, BOSS_ATTACK, BOSS_DIE };
@@ -154,9 +159,10 @@ public:
 	SDL_Surface * textIntro;
 	SDL_Surface * DeathSurface[ 2 ];
 	SDL_Surface * TypeName;
+		SDL_Surface * m_surfaceList[ MAX_SURFACE ];
 	
 private:
-	SDL_Surface * m_surfaceList[ MAX_SURFACE ];
+
 	
 };
 

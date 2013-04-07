@@ -5,17 +5,14 @@
 #include "time.h"
 #include "Timers.h"
 
-// @date 2012-08-07
-
 const int FRAMES_PER_SECOND = 30;
 using namespace std;
 
 SDL_Event event;
 bool Quit = false;
 
-
 int main( int argc, char * arg[] )
-{
+{ 
 	srand( time( 0 ) );
 	DWORD	PrevTick, CurTick;
 
@@ -37,8 +34,6 @@ int main( int argc, char * arg[] )
 		
 		while( SDL_PollEvent( &event ) )
 		{		
-		
-
 			if( event.type == SDL_QUIT  )
 			{
 				Quit = true;

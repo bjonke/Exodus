@@ -687,6 +687,14 @@ void Gamestate::ResetPlayer()
 // ----------------------------------------------------------------------------
 void Game::upDate( SDL_Event input )
 {
+	cout << "Updating the game" << endl;
+
+	SDL_Rect srcRect = { 0, 0, 800, 600 };
+	SDL_Rect destRect = { 0, 0, 800, 600 };
+	SDL_BlitSurface(	gamestate.m_surfaceList[ gamestate.m_srfOutro ],
+						&srcRect, gamestate.BackBuffer, &destRect );
+					gamestate.FLIP();
+	//return;
 	demon.UpdateEndPosition();
 
 	if( demon.Immortal )
@@ -707,9 +715,9 @@ void Game::upDate( SDL_Event input )
 	}
 
 		// Check game state
+	gamestate.GameCondition = GS_INTRO;
 	switch( gamestate.GameCondition )
 	{
-
 		// Intro sequence
 		case GS_INTRO:
 			{
