@@ -23,8 +23,6 @@
 #include "OutroFinish.h"
 #include "GetInput.h"
 
-// @date 2012-08-07
-
 Gamestate gamestate;
 
 Gamestate::Gamestate()
@@ -175,7 +173,7 @@ void Game::Handle_events( SDL_Event input )
 					}
 
 					demon.isKicking = true;
-					Sound_Music.PlaySoundEffect( SOUND_HIT );
+					//Sound_Music.PlaySoundEffect( SOUND_HIT );
 											
 					break;
 				}
@@ -190,7 +188,7 @@ void Game::Handle_events( SDL_Event input )
 					if( demon.SmallHunter )
 					{ 
 						demon.isPunching = true; 
-						Sound_Music.PlaySoundEffect( SOUND_HIT );
+						//Sound_Music.PlaySoundEffect( SOUND_HIT );
 					}
 					else
 					{ 
@@ -198,7 +196,7 @@ void Game::Handle_events( SDL_Event input )
 						{
 							timer.Timer_TriangleAttackOK = 0;
 							demon.TriangleAttack = true; 
-							Sound_Music.PlaySoundEffect( SOUND_FIRE );
+							//Sound_Music.PlaySoundEffect( SOUND_FIRE );
 						}
 
 					}
@@ -328,6 +326,9 @@ void Gamestate::load_files()
 	m_srfMorphing = Load_imageAlpha( "Graphics\\srfMorphing.png", 255, 255, 241 );
 	m_srfReaper = Load_imageAlpha( "Graphics\\srfReaper.png", 255, 255, 255 );
 	m_srfOutro = Load_imageAlpha( "Graphics\\srfOutro.png", 255, 255, 255 );
+
+	m_srfCharacterSheetFront = Load_imageAlpha( "Graphics\\expert.png", 255, 255, 255 );
+	m_srfCharacterSheetBack = Load_imageAlpha( "Graphics\\expert2.png", 255, 255, 255 );
 
 	gamestate.CreateNewThings();
 
@@ -691,9 +692,9 @@ void Game::upDate( SDL_Event input )
 
 	SDL_Rect srcRect = { 0, 0, 800, 600 };
 	SDL_Rect destRect = { 0, 0, 800, 600 };
-	SDL_BlitSurface(	gamestate.m_surfaceList[ gamestate.m_srfOutro ],
+	/*SDL_BlitSurface(	gamestate.m_surfaceList[ gamestate.m_srfOutro ],
 						&srcRect, gamestate.BackBuffer, &destRect );
-					gamestate.FLIP();
+					gamestate.FLIP();*/
 	//return;
 	demon.UpdateEndPosition();
 
@@ -711,7 +712,7 @@ void Game::upDate( SDL_Event input )
 	{
 		gamestate.GameCondition = GS_LEVEL1BOSS;
 		demon.WhereIsEnd = 0;
-		Sound_Music.PlaySoundEffect( SOUND_BOSS );
+		//Sound_Music.PlaySoundEffect( SOUND_BOSS );
 	}
 
 		// Check game state
@@ -721,34 +722,34 @@ void Game::upDate( SDL_Event input )
 		// Intro sequence
 		case GS_INTRO:
 			{
-				Sound_Music.PlayIntroSong();
+				//Sound_Music.PlayIntroSong();
 				Handle_events( input );
 				gamestate.MainScreen();
 				break;
 			}
 		case GS_ENTERNAME:
 			{
-				Sound_Music.PlayIntroSong();
+				//Sound_Music.PlayIntroSong();
 				gamestate.EnterName();
 
 				break;
 			}	
 		case GS_INTROSTORY:
 			{
-				Sound_Music.PlayIntroSong();
+				//Sound_Music.PlayIntroSong();
 				gamestate.DoIntroTalk();
 				gamestate.FLIP();
 				break;
 			}
 		case GS_LOADING:
 			{
-				Sound_Music.PauseMusic();
+				//Sound_Music.PauseMusic();
 				gamestate.Loading();
 				break;
 			}
 		case GS_MORPH:
 			{
-				Sound_Music.PauseMusic();
+				//Sound_Music.PauseMusic();
 				gamestate.MorphMyDude();
 				break;
 			}
@@ -763,7 +764,7 @@ void Game::upDate( SDL_Event input )
 
 				if( Sound_Music.LevelSong == false )
 				{
-					Sound_Music.PlayMusic( 0 );
+					//Sound_Music.PlayMusic( 0 );
 				}
 
 				// handles events what the user does with the character
@@ -807,15 +808,15 @@ void Game::upDate( SDL_Event input )
 
 		case GS_OUTRO:
 			{
-				Sound_Music.PauseMusic();
-				Sound_Music.PlayMusic( 2 );
+				//Sound_Music.PauseMusic();
+				//Sound_Music.PlayMusic( 2 );
 				gamestate.PlayOutro();
 				break;
 			}
 		case GS_DEAD:
 			{
-				Sound_Music.PauseMusic();
-				Sound_Music.PlaySoundEffect( SOUND_DIE );
+				//Sound_Music.PauseMusic();
+				//Sound_Music.PlaySoundEffect( SOUND_DIE );
 				gamestate.PlayerDied();
 				break;
 			}
@@ -1202,6 +1203,7 @@ void Gamestate::FLIP()
 // ----------------------------------------------------------------------------
 void Gamestate::MainScreen()
 {
+	Archetype TestCharacter = Control_OBJ.SpawnArchetype();
 
 	SDL_Surface * Surface_Credits = NULL;
 	SDL_Surface * Surface_HighScore = NULL;
@@ -1214,7 +1216,6 @@ void Gamestate::MainScreen()
 
 	SDL_Rect dtRect = {	0, 0, TitleScreen->Width, TitleScreen->Height };
 
-	SDL_BlitSurface( gamestate.GetSurface( TitleScreen->surface ), &scRect, gamestate.BackBuffer, &dtRect ); 
 	if( CheckingHighScore == true )
 	{
 		ListHighScore->sort( gamestate.name->str.c_str(), gamestate.Score );
@@ -1293,8 +1294,8 @@ void Gamestate::MainScreen()
 			}
 			else
 			{
-				SDL_BlitSurface(	gamestate.GetSurface( TitleScreen->SurfaceButt ), &TitleScreen->ButtonClips[ i ],
-									gamestate.BackBuffer, &TitleScreen->DestClips[ i ] ); 
+				//SDL_BlitSurface(	gamestate.GetSurface( TitleScreen->SurfaceButt ), &TitleScreen->ButtonClips[ i ],
+				//					gamestate.BackBuffer, &TitleScreen->DestClips[ i ] ); 
 			}
 		}
 	}
@@ -1329,7 +1330,9 @@ void Gamestate::MainScreen()
 		TitleScreen->Button_HighScore = false;
 		TitleScreen->Button_Credits = false;
 	}
-	
+
+	SDL_BlitSurface( gamestate.GetSurface( m_srfCharacterSheetFront ),
+					 &dtRect,  gamestate.BackBuffer, &dtRect );
 	// Show result
 	gamestate.FLIP();
 }

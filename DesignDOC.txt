@@ -1,0 +1,81 @@
+Game concept FRS Fantasi rollspel
+Build a series of games based on the rule set of drakar och demoner
+
+The concept is to create a game that is changed by a SL or game master and the players
+that play are affected by these changes.
+
+
+1. What sort of a rpg should it be a future,fantasy??
+2. What stats should the character have?
+3. How should the graphics look like
+4. What sort of a gui should there be
+5. who should write the background story?
+6. Based on drakar och demoner
+
+7 stycken karaktärs egenskaper
+styrka
+kroppsbyggnad
+storlek
+intelligens
+kraft
+skicklighet
+karisma
+
+HÄLSA
+skadepoäng SP
+
+create a function or random numbers between 3 and 18
+
+skills
+klättra
+hoppa
+lyssna
+finna dolda ting
+gömma sig
+kast
+näve
+första hjälpen
+röra sig ljudlöst
+
+vad skall världen ha för monetärt system
+skall världen vara tur baserad eller rts om rts vilken tidsskala
+
+
+man får ett försäk att bli magiker i början av spelet och kan förbättra genom att muta
+magiker gillet. sedan så måste man vänta ett år innan man kan försöka igen eller
+åka till nästa stad och försöka där
+
+Creatures
+---------
+Elves
+Demons
+Dragons
+Dwarves
+Horses
+chimeras
+Skeleton
+manticore
+Ghosts
+Troll
+Goblins
+Wolves
+
+Weapons
+-------
+Fattning
+Baschangs
+skada
+poäng
+notering
+cost
+räckvidd
+speed
+absorbation
+type
+weight
+
+1. Make a 2D map that a bitmap can walk around on in SDL
+
+värdshuset glada hjulet
+templet
+svartalf grottor

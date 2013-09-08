@@ -155,6 +155,8 @@ public:
 		m_srfDemonLife, m_srfDemonHealthAndFire, m_srfDragon, m_srfStart, m_srfButtons,
 		m_srfIntro, m_srfPower, m_srfMorphing, m_srfReaper, m_srfOutro;
 
+	int m_srfCharacterSheetFront,m_srfCharacterSheetBack;
+
 	SDL_Surface * text;
 	SDL_Surface * textIntro;
 	SDL_Surface * DeathSurface[ 2 ];

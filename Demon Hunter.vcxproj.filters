@@ -50,6 +50,9 @@
     <Filter Include="Source Files\Sound">
       <UniqueIdentifier>{d44b5686-df83-4470-8525-59ea1871b9d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Documents">
+      <UniqueIdentifier>{e69235fd-e37b-4048-9f7a-7d6fe653aef5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="characters.cpp">
@@ -141,5 +144,10 @@
     <ClInclude Include="SoundAndMusic.h">
       <Filter>Source Files\Sound</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DesignDOC.txt">
+      <Filter>Source Files\Documents</Filter>
+    </Text>
   </ItemGroup>
 </Project>
